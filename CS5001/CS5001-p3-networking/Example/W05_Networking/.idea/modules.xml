@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/3_SynchronizedCounterExample/3_SynchronizedCounterExample.iml" filepath="$PROJECT_DIR$/3_SynchronizedCounterExample/3_SynchronizedCounterExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_ClientServerExample/4_ClientServerExample.iml" filepath="$PROJECT_DIR$/4_ClientServerExample/4_ClientServerExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/W05_Networking.iml" filepath="$PROJECT_DIR$/W05_Networking.iml" />
+    </modules>
+  </component>
+</project>

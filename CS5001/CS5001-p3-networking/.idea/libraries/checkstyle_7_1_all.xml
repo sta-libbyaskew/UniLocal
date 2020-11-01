@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="checkstyle-7.1-all">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Tests/basic/TestQ_CheckStyle/checkstyle-7.1-all.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
