@@ -1,0 +1,19 @@
+language ESSENCE' 1.0
+
+given n_verticies : int(1..)
+
+letting values be domain int(1..8)
+letting vertices be domain int(1..n_verticies)
+
+given a : matrix indexed by [int(1..n_edges)] of values
+given b : matrix indexed by [int(1..n_edges)] of values
+
+find v : matrix indexed by [vertices] of values
+
+such that
+
+allDiff(v),
+
+forAll i : values .
+  |v[a[i]] - v[b[j]]|
+true

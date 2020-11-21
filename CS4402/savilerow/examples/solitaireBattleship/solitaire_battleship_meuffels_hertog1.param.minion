@@ -1,0 +1,40 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
+**VARIABLES**
+**VARIABLES**
+ALIAS num_types[5]=[5, 4, 3, 2, 1]
+**VARIABLES**
+ALIAS zero_to_n[6]=[0, 1, 2, 3, 4, 5]
+**VARIABLES**
+ALIAS column_tallies[10]=[4, 4, 3, 3, 5, 2, 3, 3, 1, 7]
+**TUPLELIST**
+hint 15 10
+7 7 7 7 0 7 7 7 0 7 
+7 7 7 7 7 7 7 7 7 7 
+7 7 7 5 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 
+7 0 7 7 7 7 1 7 0 7 
+7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 0 
+7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 0 7 7 0 7 2 
+7 7 7 7 7 7 7 7 7 7 
+7 0 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 0 7 7 
+7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 5 7 7 
+**VARIABLES**
+ALIAS hint[15,10]=[[7, 7, 7, 7, 0, 7, 7, 7, 0, 7], [7, 7, 7, 7, 7, 7, 7, 7, 7, 7], [7, 7, 7, 5, 7, 7, 7, 7, 7, 7], [7, 7, 7, 7, 7, 7, 7, 7, 7, 7], [7, 0, 7, 7, 7, 7, 1, 7, 0, 7], [7, 7, 7, 7, 7, 7, 7, 7, 7, 7], [7, 7, 7, 7, 7, 7, 7, 7, 7, 0], [7, 7, 7, 7, 7, 7, 7, 7, 7, 7], [7, 7, 7, 7, 0, 7, 7, 0, 7, 2], [7, 7, 7, 7, 7, 7, 7, 7, 7, 7], [7, 0, 7, 7, 7, 7, 7, 7, 7, 7], [7, 7, 7, 7, 7, 7, 7, 7, 7, 7], [7, 7, 7, 7, 7, 7, 7, 0, 7, 7], [7, 7, 7, 7, 7, 7, 7, 7, 7, 7], [7, 7, 7, 7, 7, 7, 7, 5, 7, 7]]
+**VARIABLES**
+ALIAS row_tallies[15]=[2, 1, 2, 0, 2, 0, 7, 1, 6, 1, 2, 2, 5, 2, 2]
+**SEARCH**
+PRINT[]
+VARORDER STATIC []
+**CONSTRAINTS**
+true()**EOF**

@@ -1,0 +1,4 @@
+letting input=[14,31,44,41,47,7,48,39,32,15,24,50,42,9,46,31,37,4,24,39,44,10,46,9,36]
+letting output=[10,5,1,9,1]
+letting MAX_OPS=36
+letting num_registers=1

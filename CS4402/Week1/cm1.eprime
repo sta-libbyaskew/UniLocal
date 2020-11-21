@@ -1,0 +1,17 @@
+language ESSENCE' 1.0
+
+letting values be domain int(1..8)
+
+given edges : matrix indexed by [ values , values ] for int(0..1)
+
+find v : matrix indexed by [ values ] of values
+
+such that
+
+allDiff(v),
+
+forAll i : values .
+  forAll j : values .
+    edges[i,j] = 1 -> |v[i] - v[j]| >1,
+
+true

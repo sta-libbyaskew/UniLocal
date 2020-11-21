@@ -1,0 +1,240 @@
+$MAIN VERSION
+language ESSENCE' 1.0
+
+given MAX_OPS: int(1..)
+given num_registers : int(0..)
+given input: matrix indexed by [int(1..input_length)] of int(0..100)
+given output: matrix indexed by [int(1..output_length)] of int(0..100)
+
+letting STEPS be domain int(0..MAX_OPS)
+letting STEPS1 be domain int(2..(MAX_OPS-1))$first 2 and final steps are automated.
+
+letting IN_LEN be domain int(1..input_length)
+letting OUT_LEN be domain int(1..output_length)
+letting REG_NO be domain int(1..num_registers)
+
+$different integer value for each action at each step.
+find action: matrix indexed by [int(1..MAX_OPS)] of int(1..8)
+$Ordered and represents items in the inbox at each step.
+find inbox : matrix indexed by [STEPS,  IN_LEN] of int(-1..100)
+$Ordered and represents items in the outbox at each step.
+find outbox: matrix indexed by [ STEPS, OUT_LEN ] of int(-1..100)
+$Unordered an represents items in register slots at each step.
+find hand  : matrix indexed by [ STEPS ] of int(-1..100)
+$Represents item in player's hand at each step.
+find reg   : matrix indexed by [ STEPS , REG_NO ] of int(-1..100)
+
+such that
+
+
+$target final state.
+(forAll i:OUT_LEN .
+ outbox[MAX_OPS,i] = output[i]),
+
+
+$sets up initial state with all empty except inbox filled with input.
+forAll o:OUT_LEN .
+  outbox[0,o]= -1,
+
+forAll r:REG_NO .
+  reg[0,r]= -1,
+
+forAll i:IN_LEN .
+  inbox[0,i]= input[i],
+
+hand[0] = -1,
+
+
+$automates the first move by adding first object from conveyor to hand.
+forAll o:OUT_LEN .
+  outbox[1,o]= -1,
+
+forAll r:REG_NO .
+  reg[1,r]= -1,
+
+inbox[1,1]=-1,
+
+(forAll i:int(2..input_length) .
+  inbox[1,i] = input[i]),
+
+hand[1] = input[1],
+
+action[1] = 1,
+
+
+$Iterates through step from 2 to the penultimate step.
+forAll step: STEPS1 .
+
+$counter for outbox number. Position of the next number to be filled in the outbox.
+(exists out_count: OUT_LEN .
+    $must be -1 in this position, proceeded by a non-negative number (i.e filled).
+    ((outbox[step-1,out_count-1] >= 0 /\ outbox[step-1,out_count] <0)\/
+    $other condition for first outbox position. Where it is not preceeded by non-neg.
+    (outbox[step-1,1] <0 /\ out_count<2)
+    )
+
+/\
+( $1 INBOX: from inbox conveyor to hand.
+  $First condition avoids returning to inbox and
+  $dropping hand value if hand value is equal to the next item needed in outbox.
+  ((hand[step-1]!=output[out_count])/\
+  $finds position top of inbox stack, where it is non-empty but has an empty slot
+  $directly to the right.
+  (exists in_count: int(2..input_length).
+    (inbox[step-1,in_count-1] <0 /\ inbox[step-1,in_count] >= 0)/\
+    $repopulates empty inbox with -1
+    (forAll i:int(1..in_count) .
+        inbox[step,i] = -1)/\
+    $repopulates the rest of the imbox with values from the previous step.
+    (forAll i:int((in_count+1)..input_length) .
+        inbox[step,i] = inbox[step-1,i])/\
+    $adds the hand from the top of the inbox stack to the player's hand.
+    (hand[step] = inbox[step-1,in_count])/\
+    (forAll o:OUT_LEN .
+        outbox[step,o] = outbox[step-1,o])/\
+    (forAll r: REG_NO .
+           reg[step,r] = reg[step-1,r])/\
+    (action[step] = 1)
+        ))
+    )
+
+\/
+($2 OUTBOX: Hand to outbox conveyor.
+    $repopulates outbox with values from previous step.
+    (forAll o:int(1..(out_count-1)) .
+         outbox[step,o] = outbox[step-1,o])/\
+    $repopulates rest of outbox with -1
+    (forAll o:int((out_count+1)..output_length) .
+         outbox[step,o] = -1 )/\
+    $add the hand value to top of outbox stack.
+    (outbox[step, out_count] = hand[step-1])/\
+    (forAll i:IN_LEN .
+        inbox[step,i] = inbox[step-1,i])/\
+        (hand[step] = hand[step-1])/\
+    (forAll r: REG_NO .
+        reg[step,r] = reg[step-1,r])/\
+    (action[step] = 2)
+        )
+
+\/
+($3 COPY TO -  hand to register slot
+    (num_registers>0)/\ $only checks this option if there are 1 or more registers.
+    (hand[step-1]!=-1)/\  $checks hand is not empty
+    (exists reg_pos: REG_NO . $integer in player's hand to a register slot.
+      (reg[step,reg_pos] = hand[step-1] )/\
+    (forAll r:int(1..(reg_pos-1)).
+       reg[step,r] = reg[step-1,r])/\
+    (forAll r:int((reg_pos+1)..num_registers).
+       reg[step,r] = reg[step-1,r])/\
+       (hand[step] = hand[step-1])/\
+    (forAll i:IN_LEN .
+      inbox[step,i] = inbox[step-1,i])/\
+    (forAll o:OUT_LEN .
+      outbox[step,o] = outbox[step-1,o])/\
+    (action[step] = 3)
+        )
+    )
+
+
+\/
+($4 COPY FROM - register slot to hand
+    ((num_registers>0)/\ $only checks this option if there are 1 or more registers.
+    (exists reg_pos: REG_NO .
+        (reg_pos!=-1)/\ $check reg slot is not empty
+        (hand[step] = reg[step-1,reg_pos])/\
+    (forAll r: REG_NO .
+        reg[step,r] = reg[step-1,r])/\
+    (forAll i:IN_LEN .
+        inbox[step,i] = inbox[step-1,i])/\
+    (forAll o:OUT_LEN .
+        outbox[step,o] = outbox[step-1,o])/\
+    (action[step] = 4)
+        )
+    ))
+
+\/
+($5 BUMP+ - register slot to hand + 1
+    (num_registers>0)/\ $only checks this option if there are 1 or more registers.
+    (exists reg_pos: REG_NO .
+        (reg[step-1,reg_pos]!=-1)/\ $check that reg slot is not empty
+        (hand[step] = reg[step-1,reg_pos]+1)/\
+    (forAll r: REG_NO .
+        reg[step,r] = reg[step-1,r])/\
+    (forAll i:IN_LEN .
+        inbox[step,i] = inbox[step-1,i])/\
+    (forAll o:OUT_LEN .
+        outbox[step,o] = outbox[step-1,o])/\
+    (action[step] = 5)
+        )
+    )
+
+\/
+($6 BUMP- - register slot to hand - 1
+    (num_registers>0)/\ $only checks this option if there are 1 or more registers.
+    (exists reg_pos: REG_NO .
+        (reg[step-1,reg_pos]!=-1)/\ $check that reg slot is not empty
+        (hand[step] = reg[step-1,reg_pos]-1)/\
+    (forAll r: REG_NO .
+        reg[step,r] = reg[step-1,r])/\
+    (forAll i:IN_LEN .
+        inbox[step,i] = inbox[step-1,i])/\
+    (forAll o:OUT_LEN .
+        outbox[step,o] = outbox[step-1,o])/\
+    (action[step] = 6)
+        )
+    )
+
+\/
+($7 ADD - register slot value to hand value and add to hand
+    (num_registers>0)/\ $only checks this option if there are 1 or more registers.
+    (exists reg_pos: REG_NO .
+        $checks that hand nor slot are empty.
+        ((hand[step-1]!=-1)/\(reg[step-1,reg_pos]!=-1))/\
+        $assigns the summed values to the player's hand.
+        (hand[step] = reg[step-1,reg_pos]+hand[step-1])/\
+    (forAll r: REG_NO .
+        reg[step,r] = reg[step-1,r])/\
+    (forAll i:IN_LEN .
+        inbox[step,i] = inbox[step-1,i])/\
+    (forAll o:OUT_LEN .
+        outbox[step,o] = outbox[step-1,o])/\
+    (action[step] = 7)
+        )
+    )
+
+\/
+($8 SUB - register slot value from hand value and add to hand
+    (num_registers>0)/\ $only checks this option if there are 1 or more registers.
+    (exists reg_pos: REG_NO .
+        $check that subtraction will not give a negative number.
+        ((reg[step-1,reg_pos]<=hand[step-1])/\
+        (reg[step-1,reg_pos]!=-1))/\ $checks that hand nor slot are empty.
+        (hand[step] = hand[step-1] - reg[step-1,reg_pos])/\
+    (forAll r: REG_NO .
+        reg[step,r] = reg[step-1,r])/\
+    (forAll i:IN_LEN .
+        inbox[step,i] = inbox[step-1,i])/\
+    (forAll o:OUT_LEN .
+        outbox[step,o] = outbox[step-1,o])/\
+    (action[step] = 8)
+        )
+    )
+),
+
+
+$if outbox is not yet complete then the final step must be 'OUTBOX'. This automates
+$this final action.
+((outbox[MAX_OPS-1,output_length]!= output[output_length])/\
+(outbox[MAX_OPS, output_length] = hand[MAX_OPS-1])/\
+(forAll i:IN_LEN .
+    inbox[MAX_OPS,i] = inbox[MAX_OPS-1,i])/\
+(forAll o:int(1..(output_length-1)) .
+    outbox[MAX_OPS,o] = outbox[MAX_OPS-1,o])/\
+(hand[MAX_OPS] = hand[MAX_OPS-1])/\
+(forAll r: REG_NO .
+    reg[MAX_OPS,r] = reg[MAX_OPS-1,r])/\
+    (action[MAX_OPS] = 2)
+ ),
+
+
+true

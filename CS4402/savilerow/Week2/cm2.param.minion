@@ -1,0 +1,154 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
+**VARIABLES**
+DISCRETE v_00001 #
+{1..8}
+DISCRETE v_00002 #
+{1..8}
+DISCRETE v_00003 #
+{1..8}
+DISCRETE v_00004 #
+{1..8}
+DISCRETE v_00005 #
+{1..8}
+DISCRETE v_00006 #
+{1..8}
+DISCRETE v_00007 #
+{1..8}
+DISCRETE v_00008 #
+{1..8}
+DISCRETE aux1 #(v_00003 - v_00004)
+{-7..7}
+DISCRETE aux2 #|aux1|
+{2..7}
+DISCRETE aux3 #(v_00006 - v_00008)
+{-7..7}
+DISCRETE aux4 #|aux3|
+{2..7}
+DISCRETE aux5 #(v_00007 - v_00008)
+{-7..7}
+DISCRETE aux6 #|aux5|
+{2..7}
+DISCRETE aux7 #(v_00001 - v_00002)
+{-7..7}
+DISCRETE aux8 #|aux7|
+{2..7}
+DISCRETE aux9 #(v_00001 - v_00003)
+{-7..7}
+DISCRETE aux10 #|aux9|
+{2..7}
+DISCRETE aux11 #(v_00001 - v_00004)
+{-7..7}
+DISCRETE aux12 #|aux11|
+{2..7}
+DISCRETE aux13 #(v_00001 - v_00005)
+{-7..7}
+DISCRETE aux14 #|aux13|
+{2..7}
+DISCRETE aux15 #(v_00002 - v_00004)
+{-7..7}
+DISCRETE aux16 #|aux15|
+{2..7}
+DISCRETE aux17 #(v_00002 - v_00005)
+{-7..7}
+DISCRETE aux18 #|aux17|
+{2..7}
+DISCRETE aux19 #(v_00002 - v_00006)
+{-7..7}
+DISCRETE aux20 #|aux19|
+{2..7}
+DISCRETE aux21 #(v_00004 - v_00005)
+{-7..7}
+DISCRETE aux22 #|aux21|
+{2..7}
+DISCRETE aux23 #(v_00004 - v_00007)
+{-7..7}
+DISCRETE aux24 #|aux23|
+{2..7}
+DISCRETE aux25 #(v_00004 - v_00008)
+{-7..7}
+DISCRETE aux26 #|aux25|
+{2..7}
+DISCRETE aux27 #(v_00005 - v_00006)
+{-7..7}
+DISCRETE aux28 #|aux27|
+{2..7}
+DISCRETE aux29 #(v_00005 - v_00007)
+{-7..7}
+DISCRETE aux30 #|aux29|
+{2..7}
+DISCRETE aux31 #(v_00005 - v_00008)
+{-7..7}
+DISCRETE aux32 #|aux31|
+{2..7}
+**TUPLELIST**
+edges 8 8
+0 1 1 1 1 0 0 0 
+0 0 0 1 1 1 0 0 
+0 0 0 1 0 0 0 0 
+0 0 0 0 1 0 1 1 
+0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 
+**VARIABLES**
+ALIAS edges[8,8]=[[0, 1, 1, 1, 1, 0, 0, 0], [0, 0, 0, 1, 1, 1, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 1, 0, 1, 1], [0, 0, 0, 0, 0, 1, 1, 1], [0, 0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0, 0, 0]]
+**SEARCH**
+PRINT[[v_00001],[v_00002],[v_00003],[v_00004],[v_00005],[v_00006],[v_00007],[v_00008]]
+VARORDER STATIC [v_00001, v_00002, v_00003, v_00004, v_00005, v_00006, v_00007, v_00008]
+**CONSTRAINTS**
+abs(aux2, aux1)
+abs(aux4, aux3)
+abs(aux6, aux5)
+abs(aux8, aux7)
+abs(aux10, aux9)
+abs(aux12, aux11)
+abs(aux14, aux13)
+abs(aux16, aux15)
+abs(aux18, aux17)
+abs(aux20, aux19)
+abs(aux22, aux21)
+abs(aux24, aux23)
+abs(aux26, aux25)
+abs(aux28, aux27)
+abs(aux30, aux29)
+abs(aux32, aux31)
+gacalldiff([v_00001, v_00002, v_00003, v_00004, v_00005, v_00006, v_00007, v_00008])
+weightedsumleq([1,-1],[v_00003,v_00004],aux1)
+weightedsumgeq([1,-1],[v_00003,v_00004],aux1)
+weightedsumleq([1,-1],[v_00006,v_00008],aux3)
+weightedsumgeq([1,-1],[v_00006,v_00008],aux3)
+weightedsumleq([1,-1],[v_00007,v_00008],aux5)
+weightedsumgeq([1,-1],[v_00007,v_00008],aux5)
+weightedsumleq([1,-1],[v_00001,v_00002],aux7)
+weightedsumgeq([1,-1],[v_00001,v_00002],aux7)
+weightedsumleq([1,-1],[v_00001,v_00003],aux9)
+weightedsumgeq([1,-1],[v_00001,v_00003],aux9)
+weightedsumleq([1,-1],[v_00001,v_00004],aux11)
+weightedsumgeq([1,-1],[v_00001,v_00004],aux11)
+weightedsumleq([1,-1],[v_00001,v_00005],aux13)
+weightedsumgeq([1,-1],[v_00001,v_00005],aux13)
+weightedsumleq([1,-1],[v_00002,v_00004],aux15)
+weightedsumgeq([1,-1],[v_00002,v_00004],aux15)
+weightedsumleq([1,-1],[v_00002,v_00005],aux17)
+weightedsumgeq([1,-1],[v_00002,v_00005],aux17)
+weightedsumleq([1,-1],[v_00002,v_00006],aux19)
+weightedsumgeq([1,-1],[v_00002,v_00006],aux19)
+weightedsumleq([1,-1],[v_00004,v_00005],aux21)
+weightedsumgeq([1,-1],[v_00004,v_00005],aux21)
+weightedsumleq([1,-1],[v_00004,v_00007],aux23)
+weightedsumgeq([1,-1],[v_00004,v_00007],aux23)
+weightedsumleq([1,-1],[v_00004,v_00008],aux25)
+weightedsumgeq([1,-1],[v_00004,v_00008],aux25)
+weightedsumleq([1,-1],[v_00005,v_00006],aux27)
+weightedsumgeq([1,-1],[v_00005,v_00006],aux27)
+weightedsumleq([1,-1],[v_00005,v_00007],aux29)
+weightedsumgeq([1,-1],[v_00005,v_00007],aux29)
+weightedsumleq([1,-1],[v_00005,v_00008],aux31)
+weightedsumgeq([1,-1],[v_00005,v_00008],aux31)
+**EOF**

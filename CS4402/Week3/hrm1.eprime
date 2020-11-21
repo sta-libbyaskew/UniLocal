@@ -1,0 +1,78 @@
+language ESSENCE' 1.0
+
+given MAX_OPS: int(1..)
+$given num_registers : int(0..)
+given input: matrix indexed by [int(1..input_length)] of int(0..100)
+given output: matrix indexed by [int(1..output_length)] of int(0..100)
+
+$ Excludes initial state
+letting STEPS be domain int(0..MAX_OPS)
+letting STEPS1 be domain int(1..MAX_OPS)
+$letting hand be domain int(0..100)
+
+letting IN_LEN be domain int(0..input_length)
+letting OUT_LEN be domain int(0..output_length)
+$letting REG_NO be domain int(0..num_registers)
+
+letting in_count be 1
+letting out_count be 1
+
+
+find inbox : matrix indexed by [STEPS,  IN_LEN] of int(-1..100)
+$find reg   : matrix indexed by [ STEPS, REG_NO ] of int(-1..100)
+find outbox: matrix indexed by [ STEPS, OUT_LEN ] of int(-1..100)
+find hand  : matrix indexed by [ STEPS ] of int(0..100)
+
+
+$NB using -1 as dummy var for null
+such that
+
+$initial: output starts with all 0s and inbox is input list $$$$$$$$$$$$$$$
+
+outbox[0,0]= -1,
+outbox[0,0]= -1,
+outbox[0,0]= -1,
+
+inbox[0,0]= -1,
+inbox[0,1]=2,
+inbox[0,2]=3,
+
+$picks up object from conveyor for first move
+hand[0] = 1,
+
+$target: input is all 0s and outbox is output list $$$$$$$$$$$$$$$$$$$$$$$
+outbox[MAX_OPS,0] = 1,
+outbox[MAX_OPS,1] = 2,
+outbox[MAX_OPS,2] = 3,
+
+$actions $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+forAll step: STEPS1 .
+  $INBOX: from conveyor to hand
+    ((inbox[step-1,in_count-1]=-1)/\
+
+      ((hand[step] = inbox[step-1 ,in_count])/\
+      (forAll i:IN_LEN .
+        inbox[step,i] = inbox[step-1,i])/\
+       (inbox[step ,in_count] = -1)/\
+       (in_count = in_count + 1)/\
+       (forAll o:OUT_LEN .
+         outbox[step,o] = outbox[step-1,o])
+       )
+       )
+
+  \/
+  $OUTBOX:
+    ((outbox[step-1,out_count]=-1)/\
+
+    ((forAll o:OUT_LEN .
+      outbox[step,o] = outbox[step-1,o])/\
+      (outbox[step ,out_count-1] = hand[step-1])/\
+      (out_count = out_count + 1)/\
+      (forAll i: IN_LEN .
+        inbox[step,i] = inbox[step-1,i])/\
+      (hand[step] = hand[step-1]))
+      ),
+
+true
+
+$OUTBOX

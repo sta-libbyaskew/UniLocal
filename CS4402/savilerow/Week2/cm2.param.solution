@@ -1,0 +1,6 @@
+language ESSENCE' 1.0
+$ Minion SolverNodes: 287
+$ Minion SolverTotalTime: 0.002814
+$ Minion SolverTimeOut: 0
+$ Savile Row TotalTime: 0.418
+letting v be [3, 5, 7, 1, 8, 2, 4, 6]

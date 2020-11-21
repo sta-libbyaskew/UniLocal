@@ -1,0 +1,392 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
+**VARIABLES**
+DISCRETE action_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE action_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE action_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00000_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00000_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00000_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00001_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00001_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00001_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00002_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00002_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00002_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00003_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00003_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE inbox_00003_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00007 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00008 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00009 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00010 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00011 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00012 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00013 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00000_00014 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00007 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00008 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00009 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00010 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00011 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00012 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00013 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00001_00014 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00007 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00008 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00009 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00010 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00011 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00012 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00013 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00002_00014 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00006 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00007 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00008 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00009 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00010 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00011 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00012 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00013 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE outbox_00003_00014 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE hand_00000 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE hand_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE hand_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE hand_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+**VARIABLES**
+ALIAS output[14]=[1, 1, 1, 2, 3, 5, 1, 1, 2, 3, 5, 8, 13, 21]
+**VARIABLES**
+ALIAS input[3]=[1, 6, 23]
+**SEARCH**
+PRINT[[action_00001],[action_00002],[action_00003],[inbox_00000_00001],[inbox_00000_00002],[inbox_00000_00003],[inbox_00001_00001],[inbox_00001_00002],[inbox_00001_00003],[inbox_00002_00001],[inbox_00002_00002],[inbox_00002_00003],[inbox_00003_00001],[inbox_00003_00002],[inbox_00003_00003],[outbox_00000_00001],[outbox_00000_00002],[outbox_00000_00003],[outbox_00000_00004],[outbox_00000_00005],[outbox_00000_00006],[outbox_00000_00007],[outbox_00000_00008],[outbox_00000_00009],[outbox_00000_00010],[outbox_00000_00011],[outbox_00000_00012],[outbox_00000_00013],[outbox_00000_00014],[outbox_00001_00001],[outbox_00001_00002],[outbox_00001_00003],[outbox_00001_00004],[outbox_00001_00005],[outbox_00001_00006],[outbox_00001_00007],[outbox_00001_00008],[outbox_00001_00009],[outbox_00001_00010],[outbox_00001_00011],[outbox_00001_00012],[outbox_00001_00013],[outbox_00001_00014],[outbox_00002_00001],[outbox_00002_00002],[outbox_00002_00003],[outbox_00002_00004],[outbox_00002_00005],[outbox_00002_00006],[outbox_00002_00007],[outbox_00002_00008],[outbox_00002_00009],[outbox_00002_00010],[outbox_00002_00011],[outbox_00002_00012],[outbox_00002_00013],[outbox_00002_00014],[outbox_00003_00001],[outbox_00003_00002],[outbox_00003_00003],[outbox_00003_00004],[outbox_00003_00005],[outbox_00003_00006],[outbox_00003_00007],[outbox_00003_00008],[outbox_00003_00009],[outbox_00003_00010],[outbox_00003_00011],[outbox_00003_00012],[outbox_00003_00013],[outbox_00003_00014],[hand_00000],[hand_00001],[hand_00002],[hand_00003]]
+VARORDER STATIC [action_00001, action_00002, action_00003, inbox_00000_00001, inbox_00000_00002, inbox_00000_00003, inbox_00001_00001, inbox_00001_00002, inbox_00001_00003, inbox_00002_00001, inbox_00002_00002, inbox_00002_00003, inbox_00003_00001, inbox_00003_00002, inbox_00003_00003, outbox_00000_00001, outbox_00000_00002, outbox_00000_00003, outbox_00000_00004, outbox_00000_00005, outbox_00000_00006, outbox_00000_00007, outbox_00000_00008, outbox_00000_00009, outbox_00000_00010, outbox_00000_00011, outbox_00000_00012, outbox_00000_00013, outbox_00000_00014, outbox_00001_00001, outbox_00001_00002, outbox_00001_00003, outbox_00001_00004, outbox_00001_00005, outbox_00001_00006, outbox_00001_00007, outbox_00001_00008, outbox_00001_00009, outbox_00001_00010, outbox_00001_00011, outbox_00001_00012, outbox_00001_00013, outbox_00001_00014, outbox_00002_00001, outbox_00002_00002, outbox_00002_00003, outbox_00002_00004, outbox_00002_00005, outbox_00002_00006, outbox_00002_00007, outbox_00002_00008, outbox_00002_00009, outbox_00002_00010, outbox_00002_00011, outbox_00002_00012, outbox_00002_00013, outbox_00002_00014, outbox_00003_00001, outbox_00003_00002, outbox_00003_00003, outbox_00003_00004, outbox_00003_00005, outbox_00003_00006, outbox_00003_00007, outbox_00003_00008, outbox_00003_00009, outbox_00003_00010, outbox_00003_00011, outbox_00003_00012, outbox_00003_00013, outbox_00003_00014, hand_00000, hand_00001, hand_00002, hand_00003]
+**CONSTRAINTS**
+false()**EOF**

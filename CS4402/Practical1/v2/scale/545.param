@@ -1,0 +1,5 @@
+$ HRM instance with in/out lengths = 5/45, seed = 10
+language ESSENCE' 1.0
+letting input=[4,1,4,1,7]
+letting output=[47,38,59,22,65,74,30,52,79,76,31,47,74,14,89,54,80,16,9,6,20,15,51,9,81,39,63,43,27,8,56,71,11,46,14,90,38,63,73,89,60,79,55,12,14]
+letting MAX_OPS=999

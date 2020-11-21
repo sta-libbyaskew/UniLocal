@@ -1,0 +1,38 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 3
+# CSE_active_eliminated_expressions = 10
+# CSE_active_total_size = 9
+**VARIABLES**
+DISCRETE outbox_00002_00001 #
+{-1..1}
+DISCRETE hand_00003 #
+{-1..2}
+DISCRETE reg_00002_00001 #
+{-1..1}
+DISCRETE reg_00003_00001 #
+{-1..1}
+DISCRETE reg_00005_00001 #
+{-1..2}
+BOOL aux86 #Active-CSE: 3 occurrences of this expression or equivalent: (reg_00005_00001=reg_00003_00001)
+BOOL aux87 #Active-CSE: 5 occurrences of this expression or equivalent: (reg_00002_00001=reg_00003_00001)
+DISCRETE aux88 #Active-CSE: 2 occurrences of this expression or equivalent: ( - reg_00002_00001 + 1)
+{0..2}
+**VARIABLES**
+ALIAS output[2]=[1, 2]
+**VARIABLES**
+ALIAS input[2]=[1, 2]
+**SEARCH**
+PRINT[[outbox_00002_00001],[hand_00003],[reg_00002_00001],[reg_00003_00001],[reg_00005_00001]]
+VARORDER STATIC [outbox_00002_00001, hand_00003, reg_00002_00001, reg_00003_00001, reg_00005_00001]
+**CONSTRAINTS**
+reify(gaceq(reg_00005_00001,reg_00003_00001), aux86)
+reify(gaceq(reg_00002_00001,reg_00003_00001), aux87)
+watched-or({watched-and({w-literal(outbox_00002_00001,-1),w-literal(reg_00002_00001,1)}),watched-and({w-literal(outbox_00002_00001,1),w-literal(reg_00002_00001,-1)})})
+watched-or({watched-and({w-literal(reg_00003_00001,1),w-literal(outbox_00002_00001,1),w-literal(hand_00003,1)}),watched-and({w-literal(outbox_00002_00001,1),w-literal(aux87,1),gaceq(reg_00002_00001,hand_00003)}),watched-and({w-literal(outbox_00002_00001,1),diseq(reg_00002_00001,-1),w-literal(aux87,1),gaceq(aux88,hand_00003)}),watched-and({w-literal(outbox_00002_00001,1),diseq(reg_00002_00001,-1),w-literal(aux87,1),minuseq(hand_00003, aux88)}),watched-and({w-literal(outbox_00002_00001,1),diseq(reg_00002_00001,-1),w-literal(aux87,1),sumleq([reg_00002_00001,1],hand_00003),sumgeq([reg_00002_00001,1],hand_00003)}),watched-and({ineq(outbox_00002_00001, 0, -1),w-literal(hand_00003,1),w-literal(aux87,1)})})
+watched-or({watched-and({gaceq(reg_00005_00001,hand_00003),diseq(-1,hand_00003),w-literal(hand_00003,2)}),watched-and({diseq(-1,reg_00003_00001),diseq(-1,hand_00003),w-literal(aux86,1),sumleq([reg_00003_00001,hand_00003],2),sumgeq([reg_00003_00001,hand_00003],2)}),watched-and({diseq(-1,reg_00003_00001),w-literal(reg_00003_00001,1),w-literal(aux86,1)}),watched-and({ineq(reg_00003_00001, hand_00003, 0),diseq(-1,reg_00003_00001),w-literal(aux86,1),weightedsumleq([-1,1],[reg_00003_00001,hand_00003],2),weightedsumgeq([-1,1],[reg_00003_00001,hand_00003],2)})})
+weightedsumleq([-1,1],[reg_00002_00001,1],aux88)
+weightedsumgeq([-1,1],[reg_00002_00001,1],aux88)
+**EOF**

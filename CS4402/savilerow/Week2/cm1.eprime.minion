@@ -1,0 +1,142 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
+**VARIABLES**
+DISCRETE x1 #
+{1..8}
+DISCRETE x2 #
+{1..8}
+DISCRETE x3 #
+{1..8}
+DISCRETE x4 #
+{1..8}
+DISCRETE x5 #
+{1..8}
+DISCRETE x6 #
+{1..8}
+DISCRETE x7 #
+{1..8}
+DISCRETE x8 #
+{1..8}
+DISCRETE aux0 #(x1 - x2)
+{-7..7}
+DISCRETE aux1 #|aux0|
+{2..7}
+DISCRETE aux2 #(x1 - x4)
+{-7..7}
+DISCRETE aux3 #|aux2|
+{2..7}
+DISCRETE aux4 #(x1 - x3)
+{-7..7}
+DISCRETE aux5 #|aux4|
+{2..7}
+DISCRETE aux6 #(x2 - x4)
+{-7..7}
+DISCRETE aux7 #|aux6|
+{2..7}
+DISCRETE aux8 #(x2 - x5)
+{-7..7}
+DISCRETE aux9 #|aux8|
+{2..7}
+DISCRETE aux10 #(x2 - x6)
+{-7..7}
+DISCRETE aux11 #|aux10|
+{2..7}
+DISCRETE aux12 #(x3 - x4)
+{-7..7}
+DISCRETE aux13 #|aux12|
+{2..7}
+DISCRETE aux14 #(x3 - x7)
+{-7..7}
+DISCRETE aux15 #|aux14|
+{2..7}
+DISCRETE aux16 #(x4 - x5)
+{-7..7}
+DISCRETE aux17 #|aux16|
+{2..7}
+DISCRETE aux18 #(x4 - x7)
+{-7..7}
+DISCRETE aux19 #|aux18|
+{2..7}
+DISCRETE aux20 #(x4 - x8)
+{-7..7}
+DISCRETE aux21 #|aux20|
+{2..7}
+DISCRETE aux22 #(x5 - x6)
+{-7..7}
+DISCRETE aux23 #|aux22|
+{2..7}
+DISCRETE aux24 #(x5 - x7)
+{-7..7}
+DISCRETE aux25 #|aux24|
+{2..7}
+DISCRETE aux26 #(x5 - x8)
+{-7..7}
+DISCRETE aux27 #|aux26|
+{2..7}
+DISCRETE aux28 #(x6 - x8)
+{-7..7}
+DISCRETE aux29 #|aux28|
+{2..7}
+DISCRETE aux30 #(x7 - x8)
+{-7..7}
+DISCRETE aux31 #|aux30|
+{2..7}
+**SEARCH**
+PRINT[[x1],[x2],[x3],[x4],[x5],[x6],[x7],[x8]]
+VARORDER STATIC [x1, x2, x3, x4, x5, x6, x7, x8]
+**CONSTRAINTS**
+abs(aux1, aux0)
+abs(aux3, aux2)
+abs(aux5, aux4)
+abs(aux7, aux6)
+abs(aux9, aux8)
+abs(aux11, aux10)
+abs(aux13, aux12)
+abs(aux15, aux14)
+abs(aux17, aux16)
+abs(aux19, aux18)
+abs(aux21, aux20)
+abs(aux23, aux22)
+abs(aux25, aux24)
+abs(aux27, aux26)
+abs(aux29, aux28)
+abs(aux31, aux30)
+gacalldiff([x1, x2, x3, x4, x5, x6, x7, x8])
+weightedsumleq([1,-1],[x1,x2],aux0)
+weightedsumgeq([1,-1],[x1,x2],aux0)
+weightedsumleq([1,-1],[x1,x4],aux2)
+weightedsumgeq([1,-1],[x1,x4],aux2)
+weightedsumleq([1,-1],[x1,x3],aux4)
+weightedsumgeq([1,-1],[x1,x3],aux4)
+weightedsumleq([1,-1],[x2,x4],aux6)
+weightedsumgeq([1,-1],[x2,x4],aux6)
+weightedsumleq([1,-1],[x2,x5],aux8)
+weightedsumgeq([1,-1],[x2,x5],aux8)
+weightedsumleq([1,-1],[x2,x6],aux10)
+weightedsumgeq([1,-1],[x2,x6],aux10)
+weightedsumleq([1,-1],[x3,x4],aux12)
+weightedsumgeq([1,-1],[x3,x4],aux12)
+weightedsumleq([1,-1],[x3,x7],aux14)
+weightedsumgeq([1,-1],[x3,x7],aux14)
+weightedsumleq([1,-1],[x4,x5],aux16)
+weightedsumgeq([1,-1],[x4,x5],aux16)
+weightedsumleq([1,-1],[x4,x7],aux18)
+weightedsumgeq([1,-1],[x4,x7],aux18)
+weightedsumleq([1,-1],[x4,x8],aux20)
+weightedsumgeq([1,-1],[x4,x8],aux20)
+weightedsumleq([1,-1],[x5,x6],aux22)
+weightedsumgeq([1,-1],[x5,x6],aux22)
+weightedsumleq([1,-1],[x5,x7],aux24)
+weightedsumgeq([1,-1],[x5,x7],aux24)
+weightedsumleq([1,-1],[x5,x8],aux26)
+weightedsumgeq([1,-1],[x5,x8],aux26)
+weightedsumleq([1,-1],[x6,x8],aux28)
+weightedsumgeq([1,-1],[x6,x8],aux28)
+weightedsumleq([1,-1],[x7,x8],aux30)
+weightedsumgeq([1,-1],[x7,x8],aux30)
+**EOF**

@@ -1,0 +1,25 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 2
+# CSE_active_eliminated_expressions = 16
+# CSE_active_total_size = 6
+**VARIABLES**
+DISCRETE action_00003 #
+{4..7}
+DISCRETE reg_00002_00001 #
+{-1..6}
+DISCRETE reg_00002_00002 #
+{-1..6}
+**VARIABLES**
+ALIAS output[1]=[5]
+**VARIABLES**
+ALIAS input[2]=[6, 1]
+**SEARCH**
+PRINT[[action_00003],[reg_00002_00001],[reg_00002_00002]]
+VARORDER STATIC [action_00003, reg_00002_00001, reg_00002_00002]
+**CONSTRAINTS**
+watched-or({watched-and({w-literal(reg_00002_00001,-1),w-literal(reg_00002_00002,6)}),watched-and({w-literal(reg_00002_00001,6),w-literal(reg_00002_00002,-1)})})
+watched-or({watched-and({w-literal(action_00003,5),diseq(reg_00002_00001,-1),w-literal(reg_00002_00001,4)}),watched-and({w-literal(action_00003,5),diseq(reg_00002_00002,-1),w-literal(reg_00002_00002,4)}),watched-and({w-literal(action_00003,6),diseq(reg_00002_00001,-1),w-literal(reg_00002_00001,6)}),watched-and({w-literal(action_00003,6),diseq(reg_00002_00002,-1),w-literal(reg_00002_00002,6)}),watched-and({w-literal(action_00003,7),diseq(reg_00002_00001,-1),w-literal(reg_00002_00001,-1)}),watched-and({w-literal(action_00003,7),diseq(reg_00002_00002,-1),w-literal(reg_00002_00002,-1)}),watched-and({w-literal(action_00003,4),w-literal(reg_00002_00001,5)}),watched-and({w-literal(action_00003,4),w-literal(reg_00002_00002,5)})})
+**EOF**

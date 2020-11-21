@@ -1,0 +1,782 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 171
+# CSE_active_eliminated_expressions = 2789
+# CSE_active_total_size = 513
+**VARIABLES**
+DISCRETE action_00001 #
+{1..4}
+DISCRETE action_00002 #
+{1..4}
+DISCRETE action_00003 #
+{1..7}
+DISCRETE action_00004 #
+{1..7}
+DISCRETE action_00005 #
+{1..7}
+DISCRETE action_00006 #
+{1..7}
+DISCRETE action_00007 #
+{1..7}
+DISCRETE action_00008 #
+{1..7}
+DISCRETE action_00009 #
+{1..7}
+DISCRETE action_00010 #
+{1..7}
+DISCRETE action_00011 #
+{1..7}
+DISCRETE action_00012 #
+{1..7}
+DISCRETE action_00013 #
+{1..7}
+DISCRETE action_00014 #
+{1..7}
+DISCRETE action_00015 #
+{1..7}
+DISCRETE inbox_00001_00001 #
+{-1..8}
+DISCRETE inbox_00002_00001 #
+{-1..8}
+DISCRETE inbox_00002_00002 #
+{-1..8}
+DISCRETE inbox_00003_00001 #
+{-1..8}
+DISCRETE inbox_00003_00002 #
+{-1..8}
+DISCRETE inbox_00003_00003 #
+{-1..5}
+DISCRETE inbox_00004_00001 #
+{-1..8}
+DISCRETE inbox_00004_00002 #
+{-1..8}
+DISCRETE inbox_00004_00003 #
+{-1..5}
+DISCRETE inbox_00004_00004 #
+{-1..3}
+DISCRETE inbox_00005_00001 #
+{-1..8}
+DISCRETE inbox_00005_00002 #
+{-1..8}
+DISCRETE inbox_00005_00003 #
+{-1..5}
+DISCRETE inbox_00005_00004 #
+{-1..3}
+DISCRETE inbox_00005_00005 #
+{-1..6}
+DISCRETE inbox_00006_00001 #
+{-1..8}
+DISCRETE inbox_00006_00002 #
+{-1..8}
+DISCRETE inbox_00006_00003 #
+{-1..5}
+DISCRETE inbox_00006_00004 #
+{-1..3}
+DISCRETE inbox_00006_00005 #
+{-1..6}
+DISCRETE inbox_00006_00006 #
+{-1..4}
+DISCRETE inbox_00007_00001 #
+{-1..8}
+DISCRETE inbox_00007_00002 #
+{-1..8}
+DISCRETE inbox_00007_00003 #
+{-1..5}
+DISCRETE inbox_00007_00004 #
+{-1..3}
+DISCRETE inbox_00007_00005 #
+{-1..6}
+DISCRETE inbox_00007_00006 #
+{-1..4}
+DISCRETE inbox_00007_00007 #
+{-1..4}
+DISCRETE inbox_00008_00001 #
+{-1..8}
+DISCRETE inbox_00008_00002 #
+{-1..8}
+DISCRETE inbox_00008_00003 #
+{-1..5}
+DISCRETE inbox_00008_00004 #
+{-1..3}
+DISCRETE inbox_00008_00005 #
+{-1..6}
+DISCRETE inbox_00008_00006 #
+{-1..4}
+DISCRETE inbox_00008_00007 #
+{-1..4}
+DISCRETE inbox_00008_00008 #
+{-1..70}
+DISCRETE inbox_00009_00001 #
+{-1..8}
+DISCRETE inbox_00009_00002 #
+{-1..8}
+DISCRETE inbox_00009_00003 #
+{-1..5}
+DISCRETE inbox_00009_00004 #
+{-1..3}
+DISCRETE inbox_00009_00005 #
+{-1..6}
+DISCRETE inbox_00009_00006 #
+{-1..4}
+DISCRETE inbox_00009_00007 #
+{-1..4}
+DISCRETE inbox_00009_00008 #
+{-1..70}
+DISCRETE inbox_00009_00009 #
+{-1..70}
+DISCRETE inbox_00010_00001 #
+{-1..8}
+DISCRETE inbox_00010_00002 #
+{-1..8}
+DISCRETE inbox_00010_00003 #
+{-1..5}
+DISCRETE inbox_00010_00004 #
+{-1..3}
+DISCRETE inbox_00010_00005 #
+{-1..6}
+DISCRETE inbox_00010_00006 #
+{-1..4}
+DISCRETE inbox_00010_00007 #
+{-1..4}
+DISCRETE inbox_00010_00008 #
+{-1..70}
+DISCRETE inbox_00010_00009 #
+{-1..70}
+DISCRETE inbox_00010_00010 #
+{-1..3}
+DISCRETE inbox_00011_00001 #
+{-1..8}
+DISCRETE inbox_00011_00002 #
+{-1..8}
+DISCRETE inbox_00011_00003 #
+{-1..5}
+DISCRETE inbox_00011_00004 #
+{-1..3}
+DISCRETE inbox_00011_00005 #
+{-1..6}
+DISCRETE inbox_00011_00006 #
+{-1..4}
+DISCRETE inbox_00011_00007 #
+{-1..4}
+DISCRETE inbox_00011_00008 #
+{-1..70}
+DISCRETE inbox_00011_00009 #
+{-1..70}
+DISCRETE inbox_00011_00010 #
+{-1..3}
+DISCRETE inbox_00011_00011 #
+{-1..12}
+DISCRETE inbox_00012_00001 #
+{-1..8}
+DISCRETE inbox_00012_00002 #
+{-1..8}
+DISCRETE inbox_00012_00003 #
+{-1..5}
+DISCRETE inbox_00012_00004 #
+{-1..3}
+DISCRETE inbox_00012_00005 #
+{-1..6}
+DISCRETE inbox_00012_00006 #
+{-1..4}
+DISCRETE inbox_00012_00007 #
+{-1..4}
+DISCRETE inbox_00012_00008 #
+{-1..70}
+DISCRETE inbox_00012_00009 #
+{-1..70}
+DISCRETE inbox_00012_00010 #
+{-1..3}
+DISCRETE inbox_00012_00011 #
+{-1..12}
+DISCRETE inbox_00012_00012 #
+{-1..12}
+DISCRETE inbox_00013_00001 #
+{-1..8}
+DISCRETE inbox_00013_00002 #
+{-1..8}
+DISCRETE inbox_00013_00003 #
+{-1..5}
+DISCRETE inbox_00013_00004 #
+{-1..3}
+DISCRETE inbox_00013_00005 #
+{-1..6}
+DISCRETE inbox_00013_00006 #
+{-1..4}
+DISCRETE inbox_00013_00007 #
+{-1..4}
+DISCRETE inbox_00013_00008 #
+{-1..70}
+DISCRETE inbox_00013_00009 #
+{-1..70}
+DISCRETE inbox_00013_00010 #
+{-1..3}
+DISCRETE inbox_00013_00011 #
+{-1..12}
+DISCRETE inbox_00013_00012 #
+{-1..12}
+DISCRETE inbox_00014_00001 #
+{-1..8}
+DISCRETE inbox_00014_00002 #
+{-1..8}
+DISCRETE inbox_00014_00003 #
+{-1..5}
+DISCRETE inbox_00014_00004 #
+{-1..3}
+DISCRETE inbox_00014_00005 #
+{-1..6}
+DISCRETE inbox_00014_00006 #
+{-1..4}
+DISCRETE inbox_00014_00007 #
+{-1..4}
+DISCRETE inbox_00014_00008 #
+{-1..70}
+DISCRETE inbox_00014_00009 #
+{-1..70}
+DISCRETE inbox_00014_00010 #
+{-1..3}
+DISCRETE inbox_00014_00011 #
+{-1..12}
+DISCRETE inbox_00014_00012 #
+{-1..12}
+DISCRETE inbox_00015_00001 #
+{-1..8}
+DISCRETE inbox_00015_00002 #
+{-1..8}
+DISCRETE inbox_00015_00003 #
+{-1..5}
+DISCRETE inbox_00015_00004 #
+{-1..3}
+DISCRETE inbox_00015_00005 #
+{-1..6}
+DISCRETE inbox_00015_00006 #
+{-1..4}
+DISCRETE inbox_00015_00007 #
+{-1..4}
+DISCRETE inbox_00015_00008 #
+{-1..70}
+DISCRETE inbox_00015_00009 #
+{-1..70}
+DISCRETE inbox_00015_00010 #
+{-1..3}
+DISCRETE inbox_00015_00011 #
+{-1..12}
+DISCRETE inbox_00015_00012 #
+{-1..12}
+DISCRETE outbox_00002_00001 #
+{-1..8}
+DISCRETE outbox_00003_00001 #
+{-1..8}
+DISCRETE outbox_00003_00002 #
+{-1..8}
+DISCRETE outbox_00004_00001 #
+{-1..16}
+DISCRETE outbox_00004_00002 #
+{-1..9}
+DISCRETE outbox_00004_00003 #
+{-1..8}
+DISCRETE outbox_00005_00001 #
+{-1..24}
+DISCRETE outbox_00005_00002 #
+{-1..17}
+DISCRETE outbox_00005_00003 #
+{-1..16}
+DISCRETE outbox_00005_00004 #
+{-1..16}
+DISCRETE outbox_00006_00001 #
+{-1..32}
+DISCRETE outbox_00006_00002 #
+{-1..32}
+DISCRETE outbox_00006_00003 #
+{-1..32}
+DISCRETE outbox_00006_00004 #
+{-1..32}
+DISCRETE outbox_00007_00001 #
+{-1..48}
+DISCRETE outbox_00007_00002 #
+{-1..48}
+DISCRETE outbox_00007_00003 #
+{-1..48}
+DISCRETE outbox_00007_00004 #
+{-1..48}
+DISCRETE outbox_00008_00001 #
+{-1..72}
+DISCRETE outbox_00008_00002 #
+{-1..65}
+DISCRETE outbox_00008_00003 #
+{-1..64}
+DISCRETE outbox_00008_00004 #
+{-1..64}
+DISCRETE outbox_00009_00001 #
+{-1..96}
+DISCRETE outbox_00009_00002 #
+{-1..96}
+DISCRETE outbox_00009_00003 #
+{-1..96}
+DISCRETE outbox_00009_00004 #
+{-1..96}
+DISCRETE outbox_00010_00001 #
+{-1..8}
+DISCRETE outbox_00010_00002 #
+{-1..4}
+DISCRETE outbox_00010_00003 #
+{-1..70}
+DISCRETE outbox_00010_00004 #
+{-1..100}
+DISCRETE outbox_00011_00001 #
+{-1..8}
+DISCRETE outbox_00011_00002 #
+{-1..4}
+DISCRETE outbox_00011_00003 #
+{-1..70}
+DISCRETE outbox_00011_00004 #
+{-1..100}
+DISCRETE outbox_00012_00001 #
+{-1..8}
+DISCRETE outbox_00012_00002 #
+{-1..4}
+DISCRETE outbox_00012_00003 #
+{-1..70}
+DISCRETE outbox_00012_00004 #
+{-1..100}
+DISCRETE outbox_00013_00001 #
+{-1..8}
+DISCRETE outbox_00013_00002 #
+{-1..4}
+DISCRETE outbox_00013_00003 #
+{-1..70}
+DISCRETE outbox_00013_00004 #
+{-1..100}
+DISCRETE outbox_00014_00001 #
+{-1..8}
+DISCRETE outbox_00014_00002 #
+{-1..4}
+DISCRETE outbox_00014_00003 #
+{-1..70}
+DISCRETE outbox_00014_00004 #
+{-1..100}
+DISCRETE hand_00001 #
+{-1..8}
+DISCRETE hand_00002 #
+{-1..8}
+DISCRETE hand_00003 #
+{-1..16}
+DISCRETE hand_00004 #
+{-1..24}
+DISCRETE hand_00005 #
+{-1..32}
+DISCRETE hand_00006 #
+{-1..48}
+DISCRETE hand_00007 #
+{-1..72}
+DISCRETE hand_00008 #
+{-1..96}
+DISCRETE hand_00009 #
+{-1..100}
+DISCRETE hand_00010 #
+{-1..100}
+DISCRETE hand_00011 #
+{-1..100}
+DISCRETE hand_00012 #
+{-1..100}
+DISCRETE hand_00013 #
+{-1..100}
+DISCRETE hand_00014 #
+{-1..100}
+DISCRETE hand_00015 #
+{-1..100}
+DISCRETE reg_00002_00001 #
+{-1..8}
+DISCRETE reg_00003_00001 #
+{-1..8}
+DISCRETE reg_00004_00001 #
+{-1..16}
+DISCRETE reg_00005_00001 #
+{-1..24}
+DISCRETE reg_00006_00001 #
+{-1..32}
+DISCRETE reg_00007_00001 #
+{-1..48}
+DISCRETE reg_00008_00001 #
+{-1..72}
+DISCRETE reg_00009_00001 #
+{-1..96}
+DISCRETE reg_00010_00001 #
+{-1..100}
+DISCRETE reg_00011_00001 #
+{-1..100}
+DISCRETE reg_00012_00001 #
+{-1..100}
+DISCRETE reg_00013_00001 #
+{-1..100}
+DISCRETE reg_00014_00001 #
+{-1..100}
+DISCRETE reg_00015_00001 #
+{-1..100}
+BOOL aux73 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00006=inbox_00012_00006)
+BOOL aux74 #Active-CSE: 14 occurrences of this expression or equivalent: (inbox_00005_00001=inbox_00006_00001)
+BOOL aux75 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00002=inbox_00012_00002)
+BOOL aux76 #Active-CSE: 16 occurrences of this expression or equivalent: (inbox_00007_00001=inbox_00008_00001)
+BOOL aux77 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00004=inbox_00014_00004)
+BOOL aux78 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00013_00001=outbox_00014_00001)
+BOOL aux79 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00008=inbox_00014_00008)
+BOOL aux80 #Active-CSE: 19 occurrences of this expression or equivalent: (inbox_00010_00006=inbox_00011_00006)
+BOOL aux81 #Active-CSE: 14 occurrences of this expression or equivalent: (inbox_00005_00005=inbox_00006_00005)
+BOOL aux82 #Active-CSE: 20 occurrences of this expression or equivalent: (reg_00013_00001=reg_00014_00001)
+BOOL aux83 #Active-CSE: 14 occurrences of this expression or equivalent: (inbox_00005_00003=inbox_00006_00003)
+BOOL aux84 #Active-CSE: 15 occurrences of this expression or equivalent: (inbox_00006_00001=inbox_00007_00001)
+BOOL aux85 #Active-CSE: 19 occurrences of this expression or equivalent: (outbox_00010_00004=outbox_00011_00004)
+BOOL aux86 #Active-CSE: 16 occurrences of this expression or equivalent: (inbox_00007_00002=inbox_00008_00002)
+BOOL aux87 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00011_00003=inbox_00012_00003)
+BOOL aux88 #Active-CSE: 11 occurrences of this expression or equivalent: (reg_00003_00001=reg_00004_00001)
+BOOL aux89 #Active-CSE: 5 occurrences of this expression or equivalent: (hand_00004=hand_00005)
+BOOL aux90 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00011_00007=inbox_00012_00007)
+BOOL aux91 #Active-CSE: 15 occurrences of this expression or equivalent: (outbox_00006_00002=outbox_00007_00002)
+BOOL aux92 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00007=inbox_00015_00007)
+BOOL aux93 #Active-CSE: 16 occurrences of this expression or equivalent: (inbox_00007_00003=inbox_00008_00003)
+BOOL aux94 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00003=inbox_00015_00003)
+BOOL aux95 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00011_00010=inbox_00012_00010)
+BOOL aux96 #Active-CSE: 15 occurrences of this expression or equivalent: (inbox_00006_00004=inbox_00007_00004)
+BOOL aux97 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00012_00002=outbox_00013_00002)
+BOOL aux98 #Active-CSE: 19 occurrences of this expression or equivalent: (inbox_00010_00009=inbox_00011_00009)
+BOOL aux99 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00012_00001=outbox_00011_00001)
+BOOL aux100 #Active-CSE: 16 occurrences of this expression or equivalent: (inbox_00007_00004=inbox_00008_00004)
+BOOL aux101 #Active-CSE: 9 occurrences of this expression or equivalent: (outbox_00002_00001=outbox_00003_00001)
+BOOL aux102 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00010=inbox_00014_00010)
+BOOL aux103 #Active-CSE: 18 occurrences of this expression or equivalent: (reg_00010_00001=reg_00009_00001)
+BOOL aux104 #Active-CSE: 18 occurrences of this expression or equivalent: (inbox_00010_00005=inbox_00009_00005)
+BOOL aux105 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00007=inbox_00012_00007)
+BOOL aux106 #Active-CSE: 16 occurrences of this expression or equivalent: (reg_00007_00001=reg_00008_00001)
+BOOL aux107 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00013_00002=outbox_00014_00002)
+BOOL aux108 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00003=inbox_00012_00003)
+BOOL aux109 #Active-CSE: 13 occurrences of this expression or equivalent: (inbox_00005_00004=inbox_00004_00004)
+BOOL aux110 #Active-CSE: 16 occurrences of this expression or equivalent: (outbox_00008_00002=outbox_00007_00002)
+BOOL aux111 #Active-CSE: 16 occurrences of this expression or equivalent: (inbox_00007_00005=inbox_00008_00005)
+BOOL aux112 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00003=inbox_00014_00003)
+BOOL aux113 #Active-CSE: 18 occurrences of this expression or equivalent: (outbox_00009_00002=outbox_00010_00002)
+BOOL aux114 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00007=inbox_00014_00007)
+BOOL aux115 #Active-CSE: 5 occurrences of this expression or equivalent: (hand_00010=hand_00011)
+BOOL aux116 #Active-CSE: 18 occurrences of this expression or equivalent: (inbox_00010_00003=inbox_00009_00003)
+BOOL aux117 #Active-CSE: 13 occurrences of this expression or equivalent: (outbox_00004_00001=outbox_00005_00001)
+BOOL aux118 #Active-CSE: 20 occurrences of this expression or equivalent: (reg_00011_00001=reg_00012_00001)
+BOOL aux119 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00010=inbox_00012_00010)
+BOOL aux120 #Active-CSE: 11 occurrences of this expression or equivalent: (outbox_00004_00001=outbox_00003_00001)
+BOOL aux121 #Active-CSE: 15 occurrences of this expression or equivalent: (reg_00006_00001=reg_00007_00001)
+BOOL aux122 #Active-CSE: 16 occurrences of this expression or equivalent: (inbox_00007_00006=inbox_00008_00006)
+BOOL aux123 #Active-CSE: 15 occurrences of this expression or equivalent: (inbox_00006_00002=inbox_00007_00002)
+BOOL aux124 #Active-CSE: 16 occurrences of this expression or equivalent: (outbox_00008_00003=outbox_00007_00003)
+BOOL aux125 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00010=inbox_00015_00010)
+BOOL aux126 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00011_00002=inbox_00012_00002)
+BOOL aux127 #Active-CSE: 19 occurrences of this expression or equivalent: (inbox_00010_00007=inbox_00011_00007)
+BOOL aux128 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00011_00006=inbox_00012_00006)
+BOOL aux129 #Active-CSE: 5 occurrences of this expression or equivalent: (hand_00011=hand_00012)
+BOOL aux130 #Active-CSE: 15 occurrences of this expression or equivalent: (outbox_00006_00003=outbox_00007_00003)
+BOOL aux131 #Active-CSE: 5 occurrences of this expression or equivalent: (hand_00012=hand_00013)
+BOOL aux132 #Active-CSE: 5 occurrences of this expression or equivalent: (hand_00013=hand_00014)
+BOOL aux133 #Active-CSE: 5 occurrences of this expression or equivalent: (hand_00014=hand_00015)
+BOOL aux134 #Active-CSE: 17 occurrences of this expression or equivalent: (reg_00008_00001=reg_00009_00001)
+BOOL aux135 #Active-CSE: 14 occurrences of this expression or equivalent: (outbox_00005_00001=outbox_00006_00001)
+BOOL aux136 #Active-CSE: 5 occurrences of this expression or equivalent: (hand_00009=hand_00010)
+BOOL aux137 #Active-CSE: 16 occurrences of this expression or equivalent: (inbox_00007_00007=inbox_00008_00007)
+BOOL aux138 #Active-CSE: 17 occurrences of this expression or equivalent: (outbox_00008_00001=outbox_00009_00001)
+BOOL aux139 #Active-CSE: 16 occurrences of this expression or equivalent: (outbox_00008_00004=outbox_00007_00004)
+BOOL aux140 #Active-CSE: 14 occurrences of this expression or equivalent: (outbox_00005_00003=outbox_00006_00003)
+BOOL aux141 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00008=inbox_00015_00008)
+BOOL aux142 #Active-CSE: 17 occurrences of this expression or equivalent: (outbox_00008_00002=outbox_00009_00002)
+BOOL aux143 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00004=inbox_00015_00004)
+BOOL aux144 #Active-CSE: 19 occurrences of this expression or equivalent: (inbox_00010_00003=inbox_00011_00003)
+BOOL aux145 #Active-CSE: 5 occurrences of this expression or equivalent: (hand_00006=hand_00007)
+BOOL aux146 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00012_00001=outbox_00013_00001)
+BOOL aux147 #Active-CSE: 5 occurrences of this expression or equivalent: (hand_00005=hand_00006)
+BOOL aux148 #Active-CSE: 5 occurrences of this expression or equivalent: (hand_00007=hand_00008)
+BOOL aux149 #Active-CSE: 15 occurrences of this expression or equivalent: (inbox_00006_00005=inbox_00007_00005)
+BOOL aux150 #Active-CSE: 18 occurrences of this expression or equivalent: (outbox_00009_00004=outbox_00010_00004)
+BOOL aux151 #Active-CSE: 5 occurrences of this expression or equivalent: (hand_00008=hand_00009)
+BOOL aux152 #Active-CSE: 17 occurrences of this expression or equivalent: (outbox_00008_00003=outbox_00009_00003)
+BOOL aux153 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00012_00002=outbox_00011_00002)
+BOOL aux154 #Active-CSE: 17 occurrences of this expression or equivalent: (outbox_00008_00004=outbox_00009_00004)
+BOOL aux155 #Active-CSE: 19 occurrences of this expression or equivalent: (outbox_00010_00001=outbox_00011_00001)
+BOOL aux156 #Active-CSE: 13 occurrences of this expression or equivalent: (inbox_00005_00001=inbox_00004_00001)
+BOOL aux157 #Active-CSE: 3 occurrences of this expression or equivalent: (hand_00002=hand_00003)
+BOOL aux158 #Active-CSE: 11 occurrences of this expression or equivalent: (inbox_00003_00002=inbox_00004_00002)
+BOOL aux159 #Active-CSE: 18 occurrences of this expression or equivalent: (inbox_00010_00008=inbox_00009_00008)
+BOOL aux160 #Active-CSE: 14 occurrences of this expression or equivalent: (inbox_00005_00002=inbox_00006_00002)
+BOOL aux161 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00013_00003=outbox_00014_00003)
+BOOL aux162 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00004=inbox_00012_00004)
+BOOL aux163 #Active-CSE: 13 occurrences of this expression or equivalent: (inbox_00005_00003=inbox_00004_00003)
+BOOL aux164 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00002=inbox_00014_00002)
+BOOL aux165 #Active-CSE: 15 occurrences of this expression or equivalent: (outbox_00006_00004=outbox_00007_00004)
+BOOL aux166 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00006=inbox_00014_00006)
+BOOL aux167 #Active-CSE: 13 occurrences of this expression or equivalent: (outbox_00004_00002=outbox_00005_00002)
+BOOL aux168 #Active-CSE: 19 occurrences of this expression or equivalent: (inbox_00010_00001=inbox_00011_00001)
+BOOL aux169 #Active-CSE: 20 occurrences of this expression or equivalent: (reg_00013_00001=reg_00012_00001)
+BOOL aux170 #Active-CSE: 14 occurrences of this expression or equivalent: (inbox_00005_00004=inbox_00006_00004)
+BOOL aux171 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00011=inbox_00012_00011)
+BOOL aux172 #Active-CSE: 18 occurrences of this expression or equivalent: (inbox_00010_00006=inbox_00009_00006)
+BOOL aux173 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00011_00001=inbox_00012_00001)
+BOOL aux174 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00011=inbox_00015_00011)
+BOOL aux175 #Active-CSE: 9 occurrences of this expression or equivalent: (reg_00002_00001=reg_00003_00001)
+BOOL aux176 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00011_00005=inbox_00012_00005)
+BOOL aux177 #Active-CSE: 19 occurrences of this expression or equivalent: (reg_00010_00001=reg_00011_00001)
+BOOL aux178 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00011_00009=inbox_00012_00009)
+BOOL aux179 #Active-CSE: 9 occurrences of this expression or equivalent: (inbox_00002_00002=inbox_00003_00002)
+BOOL aux180 #Active-CSE: 18 occurrences of this expression or equivalent: (inbox_00010_00001=inbox_00009_00001)
+BOOL aux181 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00008=inbox_00012_00008)
+BOOL aux182 #Active-CSE: 2 occurrences of this expression or equivalent: (hand_00001=hand_00002)
+BOOL aux183 #Active-CSE: 18 occurrences of this expression or equivalent: (inbox_00010_00004=inbox_00009_00004)
+BOOL aux184 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00009=inbox_00015_00009)
+BOOL aux185 #Active-CSE: 15 occurrences of this expression or equivalent: (inbox_00006_00006=inbox_00007_00006)
+BOOL aux186 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00005=inbox_00015_00005)
+BOOL aux187 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00012_00004=outbox_00013_00004)
+BOOL aux188 #Active-CSE: 18 occurrences of this expression or equivalent: (outbox_00009_00001=outbox_00010_00001)
+BOOL aux189 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00012_00003=outbox_00011_00003)
+BOOL aux190 #Active-CSE: 16 occurrences of this expression or equivalent: (outbox_00008_00001=outbox_00007_00001)
+BOOL aux191 #Active-CSE: 19 occurrences of this expression or equivalent: (inbox_00010_00004=inbox_00011_00004)
+BOOL aux192 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00012=inbox_00014_00012)
+BOOL aux193 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00001=inbox_00015_00001)
+BOOL aux194 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00009=inbox_00014_00009)
+BOOL aux195 #Active-CSE: 19 occurrences of this expression or equivalent: (outbox_00010_00002=outbox_00011_00002)
+BOOL aux196 #Active-CSE: 19 occurrences of this expression or equivalent: (inbox_00010_00010=inbox_00011_00010)
+BOOL aux197 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00013_00004=outbox_00014_00004)
+BOOL aux198 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00005=inbox_00012_00005)
+BOOL aux199 #Active-CSE: 9 occurrences of this expression or equivalent: (inbox_00002_00001=inbox_00003_00001)
+BOOL aux200 #Active-CSE: 13 occurrences of this expression or equivalent: (outbox_00004_00003=outbox_00005_00003)
+BOOL aux201 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00001=inbox_00014_00001)
+BOOL aux202 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00001=inbox_00012_00001)
+BOOL aux203 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00005=inbox_00014_00005)
+BOOL aux204 #Active-CSE: 17 occurrences of this expression or equivalent: (inbox_00008_00002=inbox_00009_00002)
+BOOL aux205 #Active-CSE: 17 occurrences of this expression or equivalent: (inbox_00008_00001=inbox_00009_00001)
+BOOL aux206 #Active-CSE: 13 occurrences of this expression or equivalent: (inbox_00005_00002=inbox_00004_00002)
+BOOL aux207 #Active-CSE: 11 occurrences of this expression or equivalent: (outbox_00004_00002=outbox_00003_00002)
+BOOL aux208 #Active-CSE: 17 occurrences of this expression or equivalent: (inbox_00008_00006=inbox_00009_00006)
+BOOL aux209 #Active-CSE: 18 occurrences of this expression or equivalent: (inbox_00010_00009=inbox_00009_00009)
+BOOL aux210 #Active-CSE: 19 occurrences of this expression or equivalent: (inbox_00010_00002=inbox_00011_00002)
+BOOL aux211 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00012=inbox_00015_00012)
+BOOL aux212 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00011_00004=inbox_00012_00004)
+BOOL aux213 #Active-CSE: 17 occurrences of this expression or equivalent: (inbox_00008_00005=inbox_00009_00005)
+BOOL aux214 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00011_00008=inbox_00012_00008)
+BOOL aux215 #Active-CSE: 17 occurrences of this expression or equivalent: (inbox_00008_00004=inbox_00009_00004)
+BOOL aux216 #Active-CSE: 17 occurrences of this expression or equivalent: (inbox_00008_00003=inbox_00009_00003)
+BOOL aux217 #Active-CSE: 15 occurrences of this expression or equivalent: (outbox_00006_00001=outbox_00007_00001)
+BOOL aux218 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00009=inbox_00012_00009)
+BOOL aux219 #Active-CSE: 19 occurrences of this expression or equivalent: (inbox_00010_00008=inbox_00011_00008)
+BOOL aux220 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00006=inbox_00015_00006)
+BOOL aux221 #Active-CSE: 17 occurrences of this expression or equivalent: (inbox_00008_00008=inbox_00009_00008)
+BOOL aux222 #Active-CSE: 14 occurrences of this expression or equivalent: (outbox_00005_00002=outbox_00006_00002)
+BOOL aux223 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00011_00011=inbox_00012_00011)
+BOOL aux224 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00012_00003=outbox_00013_00003)
+BOOL aux225 #Active-CSE: 17 occurrences of this expression or equivalent: (inbox_00008_00007=inbox_00009_00007)
+BOOL aux226 #Active-CSE: 18 occurrences of this expression or equivalent: (inbox_00010_00007=inbox_00009_00007)
+BOOL aux227 #Active-CSE: 19 occurrences of this expression or equivalent: (outbox_00010_00003=outbox_00011_00003)
+BOOL aux228 #Active-CSE: 15 occurrences of this expression or equivalent: (inbox_00006_00003=inbox_00007_00003)
+BOOL aux229 #Active-CSE: 14 occurrences of this expression or equivalent: (reg_00005_00001=reg_00006_00001)
+BOOL aux230 #Active-CSE: 20 occurrences of this expression or equivalent: (outbox_00012_00004=outbox_00011_00004)
+BOOL aux231 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00012=inbox_00012_00012)
+BOOL aux232 #Active-CSE: 18 occurrences of this expression or equivalent: (outbox_00009_00003=outbox_00010_00003)
+BOOL aux233 #Active-CSE: 18 occurrences of this expression or equivalent: (inbox_00010_00002=inbox_00009_00002)
+BOOL aux234 #Active-CSE: 4 occurrences of this expression or equivalent: (hand_00003=hand_00004)
+BOOL aux235 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00013_00011=inbox_00014_00011)
+BOOL aux236 #Active-CSE: 20 occurrences of this expression or equivalent: (inbox_00014_00002=inbox_00015_00002)
+BOOL aux237 #Active-CSE: 4 occurrences of this expression or equivalent: (inbox_00001_00001=inbox_00002_00001)
+BOOL aux238 #Active-CSE: 14 occurrences of this expression or equivalent: (outbox_00005_00004=outbox_00006_00004)
+BOOL aux239 #Active-CSE: 11 occurrences of this expression or equivalent: (inbox_00003_00001=inbox_00004_00001)
+BOOL aux240 #Active-CSE: 11 occurrences of this expression or equivalent: (inbox_00003_00003=inbox_00004_00003)
+BOOL aux241 #Active-CSE: 13 occurrences of this expression or equivalent: (reg_00005_00001=reg_00004_00001)
+BOOL aux242 #Active-CSE: 20 occurrences of this expression or equivalent: (reg_00014_00001=reg_00015_00001)
+BOOL aux243 #Active-CSE: 19 occurrences of this expression or equivalent: (inbox_00010_00005=inbox_00011_00005)
+**VARIABLES**
+ALIAS output[4]=[8, 4, 70, 12]
+**VARIABLES**
+ALIAS input[12]=[8, 8, 5, 3, 6, 4, 4, 70, 70, 3, 12, 12]
+**SEARCH**
+PRINT[[action_00001],[action_00002],[action_00003],[action_00004],[action_00005],[action_00006],[action_00007],[action_00008],[action_00009],[action_00010],[action_00011],[action_00012],[action_00013],[action_00014],[action_00015],[inbox_00001_00001],[inbox_00002_00001],[inbox_00002_00002],[inbox_00003_00001],[inbox_00003_00002],[inbox_00003_00003],[inbox_00004_00001],[inbox_00004_00002],[inbox_00004_00003],[inbox_00004_00004],[inbox_00005_00001],[inbox_00005_00002],[inbox_00005_00003],[inbox_00005_00004],[inbox_00005_00005],[inbox_00006_00001],[inbox_00006_00002],[inbox_00006_00003],[inbox_00006_00004],[inbox_00006_00005],[inbox_00006_00006],[inbox_00007_00001],[inbox_00007_00002],[inbox_00007_00003],[inbox_00007_00004],[inbox_00007_00005],[inbox_00007_00006],[inbox_00007_00007],[inbox_00008_00001],[inbox_00008_00002],[inbox_00008_00003],[inbox_00008_00004],[inbox_00008_00005],[inbox_00008_00006],[inbox_00008_00007],[inbox_00008_00008],[inbox_00009_00001],[inbox_00009_00002],[inbox_00009_00003],[inbox_00009_00004],[inbox_00009_00005],[inbox_00009_00006],[inbox_00009_00007],[inbox_00009_00008],[inbox_00009_00009],[inbox_00010_00001],[inbox_00010_00002],[inbox_00010_00003],[inbox_00010_00004],[inbox_00010_00005],[inbox_00010_00006],[inbox_00010_00007],[inbox_00010_00008],[inbox_00010_00009],[inbox_00010_00010],[inbox_00011_00001],[inbox_00011_00002],[inbox_00011_00003],[inbox_00011_00004],[inbox_00011_00005],[inbox_00011_00006],[inbox_00011_00007],[inbox_00011_00008],[inbox_00011_00009],[inbox_00011_00010],[inbox_00011_00011],[inbox_00012_00001],[inbox_00012_00002],[inbox_00012_00003],[inbox_00012_00004],[inbox_00012_00005],[inbox_00012_00006],[inbox_00012_00007],[inbox_00012_00008],[inbox_00012_00009],[inbox_00012_00010],[inbox_00012_00011],[inbox_00012_00012],[inbox_00013_00001],[inbox_00013_00002],[inbox_00013_00003],[inbox_00013_00004],[inbox_00013_00005],[inbox_00013_00006],[inbox_00013_00007],[inbox_00013_00008],[inbox_00013_00009],[inbox_00013_00010],[inbox_00013_00011],[inbox_00013_00012],[inbox_00014_00001],[inbox_00014_00002],[inbox_00014_00003],[inbox_00014_00004],[inbox_00014_00005],[inbox_00014_00006],[inbox_00014_00007],[inbox_00014_00008],[inbox_00014_00009],[inbox_00014_00010],[inbox_00014_00011],[inbox_00014_00012],[inbox_00015_00001],[inbox_00015_00002],[inbox_00015_00003],[inbox_00015_00004],[inbox_00015_00005],[inbox_00015_00006],[inbox_00015_00007],[inbox_00015_00008],[inbox_00015_00009],[inbox_00015_00010],[inbox_00015_00011],[inbox_00015_00012],[outbox_00002_00001],[outbox_00003_00001],[outbox_00003_00002],[outbox_00004_00001],[outbox_00004_00002],[outbox_00004_00003],[outbox_00005_00001],[outbox_00005_00002],[outbox_00005_00003],[outbox_00005_00004],[outbox_00006_00001],[outbox_00006_00002],[outbox_00006_00003],[outbox_00006_00004],[outbox_00007_00001],[outbox_00007_00002],[outbox_00007_00003],[outbox_00007_00004],[outbox_00008_00001],[outbox_00008_00002],[outbox_00008_00003],[outbox_00008_00004],[outbox_00009_00001],[outbox_00009_00002],[outbox_00009_00003],[outbox_00009_00004],[outbox_00010_00001],[outbox_00010_00002],[outbox_00010_00003],[outbox_00010_00004],[outbox_00011_00001],[outbox_00011_00002],[outbox_00011_00003],[outbox_00011_00004],[outbox_00012_00001],[outbox_00012_00002],[outbox_00012_00003],[outbox_00012_00004],[outbox_00013_00001],[outbox_00013_00002],[outbox_00013_00003],[outbox_00013_00004],[outbox_00014_00001],[outbox_00014_00002],[outbox_00014_00003],[outbox_00014_00004],[hand_00001],[hand_00002],[hand_00003],[hand_00004],[hand_00005],[hand_00006],[hand_00007],[hand_00008],[hand_00009],[hand_00010],[hand_00011],[hand_00012],[hand_00013],[hand_00014],[hand_00015],[reg_00002_00001],[reg_00003_00001],[reg_00004_00001],[reg_00005_00001],[reg_00006_00001],[reg_00007_00001],[reg_00008_00001],[reg_00009_00001],[reg_00010_00001],[reg_00011_00001],[reg_00012_00001],[reg_00013_00001],[reg_00014_00001],[reg_00015_00001]]
+VARORDER STATIC [action_00001, action_00002, action_00003, action_00004, action_00005, action_00006, action_00007, action_00008, action_00009, action_00010, action_00011, action_00012, action_00013, action_00014, action_00015, inbox_00001_00001, inbox_00002_00001, inbox_00002_00002, inbox_00003_00001, inbox_00003_00002, inbox_00003_00003, inbox_00004_00001, inbox_00004_00002, inbox_00004_00003, inbox_00004_00004, inbox_00005_00001, inbox_00005_00002, inbox_00005_00003, inbox_00005_00004, inbox_00005_00005, inbox_00006_00001, inbox_00006_00002, inbox_00006_00003, inbox_00006_00004, inbox_00006_00005, inbox_00006_00006, inbox_00007_00001, inbox_00007_00002, inbox_00007_00003, inbox_00007_00004, inbox_00007_00005, inbox_00007_00006, inbox_00007_00007, inbox_00008_00001, inbox_00008_00002, inbox_00008_00003, inbox_00008_00004, inbox_00008_00005, inbox_00008_00006, inbox_00008_00007, inbox_00008_00008, inbox_00009_00001, inbox_00009_00002, inbox_00009_00003, inbox_00009_00004, inbox_00009_00005, inbox_00009_00006, inbox_00009_00007, inbox_00009_00008, inbox_00009_00009, inbox_00010_00001, inbox_00010_00002, inbox_00010_00003, inbox_00010_00004, inbox_00010_00005, inbox_00010_00006, inbox_00010_00007, inbox_00010_00008, inbox_00010_00009, inbox_00010_00010, inbox_00011_00001, inbox_00011_00002, inbox_00011_00003, inbox_00011_00004, inbox_00011_00005, inbox_00011_00006, inbox_00011_00007, inbox_00011_00008, inbox_00011_00009, inbox_00011_00010, inbox_00011_00011, inbox_00012_00001, inbox_00012_00002, inbox_00012_00003, inbox_00012_00004, inbox_00012_00005, inbox_00012_00006, inbox_00012_00007, inbox_00012_00008, inbox_00012_00009, inbox_00012_00010, inbox_00012_00011, inbox_00012_00012, inbox_00013_00001, inbox_00013_00002, inbox_00013_00003, inbox_00013_00004, inbox_00013_00005, inbox_00013_00006, inbox_00013_00007, inbox_00013_00008, inbox_00013_00009, inbox_00013_00010, inbox_00013_00011, inbox_00013_00012, inbox_00014_00001, inbox_00014_00002, inbox_00014_00003, inbox_00014_00004, inbox_00014_00005, inbox_00014_00006, inbox_00014_00007, inbox_00014_00008, inbox_00014_00009, inbox_00014_00010, inbox_00014_00011, inbox_00014_00012, inbox_00015_00001, inbox_00015_00002, inbox_00015_00003, inbox_00015_00004, inbox_00015_00005, inbox_00015_00006, inbox_00015_00007, inbox_00015_00008, inbox_00015_00009, inbox_00015_00010, inbox_00015_00011, inbox_00015_00012, outbox_00002_00001, outbox_00003_00001, outbox_00003_00002, outbox_00004_00001, outbox_00004_00002, outbox_00004_00003, outbox_00005_00001, outbox_00005_00002, outbox_00005_00003, outbox_00005_00004, outbox_00006_00001, outbox_00006_00002, outbox_00006_00003, outbox_00006_00004, outbox_00007_00001, outbox_00007_00002, outbox_00007_00003, outbox_00007_00004, outbox_00008_00001, outbox_00008_00002, outbox_00008_00003, outbox_00008_00004, outbox_00009_00001, outbox_00009_00002, outbox_00009_00003, outbox_00009_00004, outbox_00010_00001, outbox_00010_00002, outbox_00010_00003, outbox_00010_00004, outbox_00011_00001, outbox_00011_00002, outbox_00011_00003, outbox_00011_00004, outbox_00012_00001, outbox_00012_00002, outbox_00012_00003, outbox_00012_00004, outbox_00013_00001, outbox_00013_00002, outbox_00013_00003, outbox_00013_00004, outbox_00014_00001, outbox_00014_00002, outbox_00014_00003, outbox_00014_00004, hand_00001, hand_00002, hand_00003, hand_00004, hand_00005, hand_00006, hand_00007, hand_00008, hand_00009, hand_00010, hand_00011, hand_00012, hand_00013, hand_00014, hand_00015, reg_00002_00001, reg_00003_00001, reg_00004_00001, reg_00005_00001, reg_00006_00001, reg_00007_00001, reg_00008_00001, reg_00009_00001, reg_00010_00001, reg_00011_00001, reg_00012_00001, reg_00013_00001, reg_00014_00001, reg_00015_00001]
+**CONSTRAINTS**
+reify(gaceq(inbox_00013_00006,inbox_00012_00006), aux73)
+reify(gaceq(inbox_00005_00001,inbox_00006_00001), aux74)
+reify(gaceq(inbox_00013_00002,inbox_00012_00002), aux75)
+reify(gaceq(inbox_00007_00001,inbox_00008_00001), aux76)
+reify(gaceq(inbox_00013_00004,inbox_00014_00004), aux77)
+reify(gaceq(outbox_00013_00001,outbox_00014_00001), aux78)
+reify(gaceq(inbox_00013_00008,inbox_00014_00008), aux79)
+reify(gaceq(inbox_00010_00006,inbox_00011_00006), aux80)
+reify(gaceq(inbox_00005_00005,inbox_00006_00005), aux81)
+reify(gaceq(reg_00013_00001,reg_00014_00001), aux82)
+reify(gaceq(inbox_00005_00003,inbox_00006_00003), aux83)
+reify(gaceq(inbox_00006_00001,inbox_00007_00001), aux84)
+reify(gaceq(outbox_00010_00004,outbox_00011_00004), aux85)
+reify(gaceq(inbox_00007_00002,inbox_00008_00002), aux86)
+reify(gaceq(inbox_00011_00003,inbox_00012_00003), aux87)
+reify(gaceq(reg_00003_00001,reg_00004_00001), aux88)
+reify(gaceq(hand_00004,hand_00005), aux89)
+reify(gaceq(inbox_00011_00007,inbox_00012_00007), aux90)
+reify(gaceq(outbox_00006_00002,outbox_00007_00002), aux91)
+reify(gaceq(inbox_00014_00007,inbox_00015_00007), aux92)
+reify(gaceq(inbox_00007_00003,inbox_00008_00003), aux93)
+reify(gaceq(inbox_00014_00003,inbox_00015_00003), aux94)
+reify(gaceq(inbox_00011_00010,inbox_00012_00010), aux95)
+reify(gaceq(inbox_00006_00004,inbox_00007_00004), aux96)
+reify(gaceq(outbox_00012_00002,outbox_00013_00002), aux97)
+reify(gaceq(inbox_00010_00009,inbox_00011_00009), aux98)
+reify(gaceq(outbox_00012_00001,outbox_00011_00001), aux99)
+reify(gaceq(inbox_00007_00004,inbox_00008_00004), aux100)
+reify(gaceq(outbox_00002_00001,outbox_00003_00001), aux101)
+reify(gaceq(inbox_00013_00010,inbox_00014_00010), aux102)
+reify(gaceq(reg_00010_00001,reg_00009_00001), aux103)
+reify(gaceq(inbox_00010_00005,inbox_00009_00005), aux104)
+reify(gaceq(inbox_00013_00007,inbox_00012_00007), aux105)
+reify(gaceq(reg_00007_00001,reg_00008_00001), aux106)
+reify(gaceq(outbox_00013_00002,outbox_00014_00002), aux107)
+reify(gaceq(inbox_00013_00003,inbox_00012_00003), aux108)
+reify(gaceq(inbox_00005_00004,inbox_00004_00004), aux109)
+reify(gaceq(outbox_00008_00002,outbox_00007_00002), aux110)
+reify(gaceq(inbox_00007_00005,inbox_00008_00005), aux111)
+reify(gaceq(inbox_00013_00003,inbox_00014_00003), aux112)
+reify(gaceq(outbox_00009_00002,outbox_00010_00002), aux113)
+reify(gaceq(inbox_00013_00007,inbox_00014_00007), aux114)
+reify(gaceq(hand_00010,hand_00011), aux115)
+reify(gaceq(inbox_00010_00003,inbox_00009_00003), aux116)
+reify(gaceq(outbox_00004_00001,outbox_00005_00001), aux117)
+reify(gaceq(reg_00011_00001,reg_00012_00001), aux118)
+reify(gaceq(inbox_00013_00010,inbox_00012_00010), aux119)
+reify(gaceq(outbox_00004_00001,outbox_00003_00001), aux120)
+reify(gaceq(reg_00006_00001,reg_00007_00001), aux121)
+reify(gaceq(inbox_00007_00006,inbox_00008_00006), aux122)
+reify(gaceq(inbox_00006_00002,inbox_00007_00002), aux123)
+reify(gaceq(outbox_00008_00003,outbox_00007_00003), aux124)
+reify(gaceq(inbox_00014_00010,inbox_00015_00010), aux125)
+reify(gaceq(inbox_00011_00002,inbox_00012_00002), aux126)
+reify(gaceq(inbox_00010_00007,inbox_00011_00007), aux127)
+reify(gaceq(inbox_00011_00006,inbox_00012_00006), aux128)
+reify(gaceq(hand_00011,hand_00012), aux129)
+reify(gaceq(outbox_00006_00003,outbox_00007_00003), aux130)
+reify(gaceq(hand_00012,hand_00013), aux131)
+reify(gaceq(hand_00013,hand_00014), aux132)
+reify(gaceq(hand_00014,hand_00015), aux133)
+reify(gaceq(reg_00008_00001,reg_00009_00001), aux134)
+reify(gaceq(outbox_00005_00001,outbox_00006_00001), aux135)
+reify(gaceq(hand_00009,hand_00010), aux136)
+reify(gaceq(inbox_00007_00007,inbox_00008_00007), aux137)
+reify(gaceq(outbox_00008_00001,outbox_00009_00001), aux138)
+reify(gaceq(outbox_00008_00004,outbox_00007_00004), aux139)
+reify(gaceq(outbox_00005_00003,outbox_00006_00003), aux140)
+reify(gaceq(inbox_00014_00008,inbox_00015_00008), aux141)
+reify(gaceq(outbox_00008_00002,outbox_00009_00002), aux142)
+reify(gaceq(inbox_00014_00004,inbox_00015_00004), aux143)
+reify(gaceq(inbox_00010_00003,inbox_00011_00003), aux144)
+reify(gaceq(hand_00006,hand_00007), aux145)
+reify(gaceq(outbox_00012_00001,outbox_00013_00001), aux146)
+reify(gaceq(hand_00005,hand_00006), aux147)
+reify(gaceq(hand_00007,hand_00008), aux148)
+reify(gaceq(inbox_00006_00005,inbox_00007_00005), aux149)
+reify(gaceq(outbox_00009_00004,outbox_00010_00004), aux150)
+reify(gaceq(hand_00008,hand_00009), aux151)
+reify(gaceq(outbox_00008_00003,outbox_00009_00003), aux152)
+reify(gaceq(outbox_00012_00002,outbox_00011_00002), aux153)
+reify(gaceq(outbox_00008_00004,outbox_00009_00004), aux154)
+reify(gaceq(outbox_00010_00001,outbox_00011_00001), aux155)
+reify(gaceq(inbox_00005_00001,inbox_00004_00001), aux156)
+reify(gaceq(hand_00002,hand_00003), aux157)
+reify(gaceq(inbox_00003_00002,inbox_00004_00002), aux158)
+reify(gaceq(inbox_00010_00008,inbox_00009_00008), aux159)
+reify(gaceq(inbox_00005_00002,inbox_00006_00002), aux160)
+reify(gaceq(outbox_00013_00003,outbox_00014_00003), aux161)
+reify(gaceq(inbox_00013_00004,inbox_00012_00004), aux162)
+reify(gaceq(inbox_00005_00003,inbox_00004_00003), aux163)
+reify(gaceq(inbox_00013_00002,inbox_00014_00002), aux164)
+reify(gaceq(outbox_00006_00004,outbox_00007_00004), aux165)
+reify(gaceq(inbox_00013_00006,inbox_00014_00006), aux166)
+reify(gaceq(outbox_00004_00002,outbox_00005_00002), aux167)
+reify(gaceq(inbox_00010_00001,inbox_00011_00001), aux168)
+reify(gaceq(reg_00013_00001,reg_00012_00001), aux169)
+reify(gaceq(inbox_00005_00004,inbox_00006_00004), aux170)
+reify(gaceq(inbox_00013_00011,inbox_00012_00011), aux171)
+reify(gaceq(inbox_00010_00006,inbox_00009_00006), aux172)
+reify(gaceq(inbox_00011_00001,inbox_00012_00001), aux173)
+reify(gaceq(inbox_00014_00011,inbox_00015_00011), aux174)
+reify(gaceq(reg_00002_00001,reg_00003_00001), aux175)
+reify(gaceq(inbox_00011_00005,inbox_00012_00005), aux176)
+reify(gaceq(reg_00010_00001,reg_00011_00001), aux177)
+reify(gaceq(inbox_00011_00009,inbox_00012_00009), aux178)
+reify(gaceq(inbox_00002_00002,inbox_00003_00002), aux179)
+reify(gaceq(inbox_00010_00001,inbox_00009_00001), aux180)
+reify(gaceq(inbox_00013_00008,inbox_00012_00008), aux181)
+reify(gaceq(hand_00001,hand_00002), aux182)
+reify(gaceq(inbox_00010_00004,inbox_00009_00004), aux183)
+reify(gaceq(inbox_00014_00009,inbox_00015_00009), aux184)
+reify(gaceq(inbox_00006_00006,inbox_00007_00006), aux185)
+reify(gaceq(inbox_00014_00005,inbox_00015_00005), aux186)
+reify(gaceq(outbox_00012_00004,outbox_00013_00004), aux187)
+reify(gaceq(outbox_00009_00001,outbox_00010_00001), aux188)
+reify(gaceq(outbox_00012_00003,outbox_00011_00003), aux189)
+reify(gaceq(outbox_00008_00001,outbox_00007_00001), aux190)
+reify(gaceq(inbox_00010_00004,inbox_00011_00004), aux191)
+reify(gaceq(inbox_00013_00012,inbox_00014_00012), aux192)
+reify(gaceq(inbox_00014_00001,inbox_00015_00001), aux193)
+reify(gaceq(inbox_00013_00009,inbox_00014_00009), aux194)
+reify(gaceq(outbox_00010_00002,outbox_00011_00002), aux195)
+reify(gaceq(inbox_00010_00010,inbox_00011_00010), aux196)
+reify(gaceq(outbox_00013_00004,outbox_00014_00004), aux197)
+reify(gaceq(inbox_00013_00005,inbox_00012_00005), aux198)
+reify(gaceq(inbox_00002_00001,inbox_00003_00001), aux199)
+reify(gaceq(outbox_00004_00003,outbox_00005_00003), aux200)
+reify(gaceq(inbox_00013_00001,inbox_00014_00001), aux201)
+reify(gaceq(inbox_00013_00001,inbox_00012_00001), aux202)
+reify(gaceq(inbox_00013_00005,inbox_00014_00005), aux203)
+reify(gaceq(inbox_00008_00002,inbox_00009_00002), aux204)
+reify(gaceq(inbox_00008_00001,inbox_00009_00001), aux205)
+reify(gaceq(inbox_00005_00002,inbox_00004_00002), aux206)
+reify(gaceq(outbox_00004_00002,outbox_00003_00002), aux207)
+reify(gaceq(inbox_00008_00006,inbox_00009_00006), aux208)
+reify(gaceq(inbox_00010_00009,inbox_00009_00009), aux209)
+reify(gaceq(inbox_00010_00002,inbox_00011_00002), aux210)
+reify(gaceq(inbox_00014_00012,inbox_00015_00012), aux211)
+reify(gaceq(inbox_00011_00004,inbox_00012_00004), aux212)
+reify(gaceq(inbox_00008_00005,inbox_00009_00005), aux213)
+reify(gaceq(inbox_00011_00008,inbox_00012_00008), aux214)
+reify(gaceq(inbox_00008_00004,inbox_00009_00004), aux215)
+reify(gaceq(inbox_00008_00003,inbox_00009_00003), aux216)
+reify(gaceq(outbox_00006_00001,outbox_00007_00001), aux217)
+reify(gaceq(inbox_00013_00009,inbox_00012_00009), aux218)
+reify(gaceq(inbox_00010_00008,inbox_00011_00008), aux219)
+reify(gaceq(inbox_00014_00006,inbox_00015_00006), aux220)
+reify(gaceq(inbox_00008_00008,inbox_00009_00008), aux221)
+reify(gaceq(outbox_00005_00002,outbox_00006_00002), aux222)
+reify(gaceq(inbox_00011_00011,inbox_00012_00011), aux223)
+reify(gaceq(outbox_00012_00003,outbox_00013_00003), aux224)
+reify(gaceq(inbox_00008_00007,inbox_00009_00007), aux225)
+reify(gaceq(inbox_00010_00007,inbox_00009_00007), aux226)
+reify(gaceq(outbox_00010_00003,outbox_00011_00003), aux227)
+reify(gaceq(inbox_00006_00003,inbox_00007_00003), aux228)
+reify(gaceq(reg_00005_00001,reg_00006_00001), aux229)
+reify(gaceq(outbox_00012_00004,outbox_00011_00004), aux230)
+reify(gaceq(inbox_00013_00012,inbox_00012_00012), aux231)
+reify(gaceq(outbox_00009_00003,outbox_00010_00003), aux232)
+reify(gaceq(inbox_00010_00002,inbox_00009_00002), aux233)
+reify(gaceq(hand_00003,hand_00004), aux234)
+reify(gaceq(inbox_00013_00011,inbox_00014_00011), aux235)
+reify(gaceq(inbox_00014_00002,inbox_00015_00002), aux236)
+reify(gaceq(inbox_00001_00001,inbox_00002_00001), aux237)
+reify(gaceq(outbox_00005_00004,outbox_00006_00004), aux238)
+reify(gaceq(inbox_00003_00001,inbox_00004_00001), aux239)
+reify(gaceq(inbox_00003_00003,inbox_00004_00003), aux240)
+reify(gaceq(reg_00005_00001,reg_00004_00001), aux241)
+reify(gaceq(reg_00014_00001,reg_00015_00001), aux242)
+reify(gaceq(inbox_00010_00005,inbox_00011_00005), aux243)
+watched-or({watched-and({w-literal(hand_00001,-1),w-literal(action_00001,2),w-literal(inbox_00001_00001,8)}),watched-and({w-literal(hand_00001,-1),w-literal(action_00001,4),w-literal(inbox_00001_00001,8)}),watched-and({w-literal(hand_00001,8),w-literal(action_00001,1),w-literal(inbox_00001_00001,-1)})})
+watched-or({watched-and({w-literal(inbox_00002_00002,8),w-literal(outbox_00002_00001,-1),w-literal(hand_00002,-1),w-literal(action_00002,4),w-literal(reg_00002_00001,-1),w-literal(aux237,1)}),watched-and({w-literal(inbox_00002_00002,-1),w-literal(outbox_00002_00001,-1),w-literal(hand_00002,8),ineq(inbox_00001_00001, 0, -1),w-literal(action_00002,1),w-literal(reg_00002_00001,-1),w-literal(aux237,1)}),watched-and({w-literal(inbox_00002_00002,8),w-literal(action_00002,2),w-literal(reg_00002_00001,-1),w-literal(aux182,1),w-literal(aux237,1),gaceq(outbox_00002_00001,hand_00001)}),watched-and({w-literal(inbox_00002_00002,8),w-literal(outbox_00002_00001,-1),diseq(-1,hand_00001),w-literal(action_00002,3),w-literal(aux182,1),w-literal(aux237,1),gaceq(reg_00002_00001,hand_00001)}),watched-and({gaceq(inbox_00001_00001,hand_00002),w-literal(inbox_00002_00001,-1),w-literal(inbox_00002_00002,8),w-literal(outbox_00002_00001,-1),w-literal(action_00002,1),w-literal(reg_00002_00001,-1),ineq(0, inbox_00001_00001, 0)})})
+watched-or({watched-and({w-literal(inbox_00003_00003,5),gaceq(reg_00003_00001,hand_00002),diseq(-1,hand_00002),w-literal(aux199,1),w-literal(aux179,1),w-literal(action_00003,3),w-literal(outbox_00003_00002,-1),w-literal(aux157,1),w-literal(aux101,1)}),watched-and({w-literal(inbox_00003_00003,-1),w-literal(hand_00003,5),w-literal(aux199,1),w-literal(aux179,1),w-literal(action_00003,1),w-literal(outbox_00003_00002,-1),w-literal(aux175,1),ineq(inbox_00002_00002, 0, -1),w-literal(aux101,1)}),watched-and({w-literal(inbox_00003_00002,-1),w-literal(inbox_00003_00003,5),w-literal(aux199,1),w-literal(action_00003,1),w-literal(outbox_00003_00002,-1),gaceq(inbox_00002_00002,hand_00003),w-literal(aux175,1),ineq(0, inbox_00002_00002, 0),ineq(inbox_00002_00001, 0, -1),w-literal(aux101,1)}),watched-and({w-literal(inbox_00003_00003,5),diseq(-1,hand_00002),w-literal(aux199,1),w-literal(aux179,1),w-literal(action_00003,7),diseq(reg_00002_00001,-1),w-literal(outbox_00003_00002,-1),w-literal(aux175,1),w-literal(aux101,1),sumleq([reg_00002_00001,hand_00002],hand_00003),sumgeq([reg_00002_00001,hand_00002],hand_00003)}),watched-and({w-literal(inbox_00003_00003,5),w-literal(aux199,1),w-literal(aux179,1),w-literal(action_00003,4),w-literal(outbox_00003_00002,-1),w-literal(aux175,1),gaceq(reg_00002_00001,hand_00003),w-literal(aux101,1)}),watched-and({w-literal(inbox_00003_00003,5),w-literal(aux199,1),w-literal(aux179,1),w-literal(action_00003,5),diseq(reg_00002_00001,-1),w-literal(outbox_00003_00002,-1),w-literal(aux175,1),w-literal(aux101,1),sumleq([reg_00002_00001,1],hand_00003),sumgeq([reg_00002_00001,1],hand_00003)}),watched-and({ineq(0, outbox_00002_00001, 0),w-literal(inbox_00003_00003,5),w-literal(aux199,1),w-literal(aux179,1),w-literal(action_00003,2),w-literal(aux175,1),w-literal(aux157,1),gaceq(hand_00002,outbox_00003_00002),w-literal(aux101,1)}),watched-and({w-literal(inbox_00003_00001,-1),w-literal(inbox_00003_00003,5),w-literal(aux179,1),w-literal(action_00003,1),w-literal(outbox_00003_00002,-1),gaceq(inbox_00002_00001,hand_00003),w-literal(aux175,1),ineq(0, inbox_00002_00001, 0),w-literal(aux101,1)}),watched-and({ineq(outbox_00002_00001, 0, -1),w-literal(inbox_00003_00003,5),w-literal(aux199,1),w-literal(aux179,1),w-literal(action_00003,2),w-literal(outbox_00003_00002,-1),w-literal(aux175,1),w-literal(aux157,1),gaceq(hand_00002,outbox_00003_00001)}),watched-and({w-literal(inbox_00003_00003,5),w-literal(aux199,1),w-literal(aux179,1),w-literal(action_00003,6),diseq(reg_00002_00001,-1),w-literal(outbox_00003_00002,-1),w-literal(aux175,1),w-literal(aux101,1),sumleq([reg_00002_00001,-1],hand_00003),sumgeq([reg_00002_00001,-1],hand_00003)})})
+watched-or({watched-and({ineq(inbox_00003_00001, 0, -1),w-literal(aux88,1),w-literal(outbox_00004_00003,-1),w-literal(inbox_00004_00002,-1),w-literal(inbox_00004_00004,3),w-literal(action_00004,1),w-literal(aux120,1),w-literal(aux207,1),gaceq(inbox_00003_00002,hand_00004),ineq(0, inbox_00003_00002, 0),w-literal(aux239,1),w-literal(aux240,1)}),watched-and({w-literal(aux88,1),gaceq(reg_00003_00001,hand_00004),w-literal(outbox_00004_00003,-1),w-literal(inbox_00004_00004,3),w-literal(action_00004,4),w-literal(aux120,1),w-literal(aux207,1),w-literal(aux239,1),w-literal(aux158,1),w-literal(aux240,1)}),watched-and({diseq(-1,reg_00003_00001),w-literal(aux88,1),w-literal(outbox_00004_00003,-1),diseq(-1,hand_00003),w-literal(inbox_00004_00004,3),w-literal(action_00004,7),w-literal(aux120,1),w-literal(aux207,1),w-literal(aux239,1),w-literal(aux158,1),w-literal(aux240,1),sumleq([reg_00003_00001,hand_00003],hand_00004),sumgeq([reg_00003_00001,hand_00003],hand_00004)}),watched-and({w-literal(aux88,1),w-literal(outbox_00004_00003,-1),w-literal(inbox_00004_00004,3),w-literal(action_00004,2),ineq(outbox_00003_00001, 0, -1),gaceq(outbox_00004_00001,hand_00003),w-literal(aux234,1),w-literal(aux207,1),w-literal(aux239,1),w-literal(aux158,1),w-literal(aux240,1)}),watched-and({w-literal(outbox_00004_00003,-1),diseq(-1,hand_00003),w-literal(inbox_00004_00004,3),w-literal(action_00004,3),w-literal(aux234,1),gaceq(reg_00004_00001,hand_00003),w-literal(aux120,1),w-literal(aux207,1),w-literal(aux239,1),w-literal(aux158,1),w-literal(aux240,1)}),watched-and({ineq(inbox_00003_00002, 0, -1),w-literal(aux88,1),w-literal(outbox_00004_00003,-1),w-literal(inbox_00004_00003,-1),w-literal(inbox_00004_00004,3),w-literal(action_00004,1),w-literal(aux120,1),w-literal(aux207,1),gaceq(inbox_00003_00003,hand_00004),ineq(0, inbox_00003_00003, 0),w-literal(aux239,1),w-literal(aux158,1)}),watched-and({ineq(inbox_00003_00003, 0, -1),w-literal(aux88,1),w-literal(outbox_00004_00003,-1),w-literal(hand_00004,3),w-literal(inbox_00004_00004,-1),w-literal(action_00004,1),w-literal(aux120,1),w-literal(aux207,1),w-literal(aux239,1),w-literal(aux158,1),w-literal(aux240,1)}),watched-and({w-literal(aux88,1),ineq(0, outbox_00003_00002, 0),w-literal(inbox_00004_00004,3),w-literal(action_00004,2),gaceq(outbox_00004_00003,hand_00003),w-literal(aux234,1),w-literal(aux120,1),w-literal(aux207,1),w-literal(aux239,1),w-literal(aux158,1),w-literal(aux240,1)}),watched-and({w-literal(aux88,1),w-literal(outbox_00004_00003,-1),w-literal(inbox_00004_00001,-1),w-literal(inbox_00004_00004,3),w-literal(action_00004,1),w-literal(aux120,1),w-literal(aux207,1),gaceq(inbox_00003_00001,hand_00004),ineq(0, inbox_00003_00001, 0),w-literal(aux158,1),w-literal(aux240,1)}),watched-and({w-literal(aux88,1),ineq(0, outbox_00003_00001, 0),w-literal(outbox_00004_00003,-1),w-literal(inbox_00004_00004,3),w-literal(action_00004,2),ineq(outbox_00003_00002, 0, -1),gaceq(outbox_00004_00002,hand_00003),w-literal(aux234,1),w-literal(aux120,1),w-literal(aux239,1),w-literal(aux158,1),w-literal(aux240,1)}),watched-and({diseq(-1,reg_00003_00001),w-literal(aux88,1),w-literal(outbox_00004_00003,-1),w-literal(inbox_00004_00004,3),w-literal(action_00004,5),w-literal(aux120,1),w-literal(aux207,1),w-literal(aux239,1),w-literal(aux158,1),w-literal(aux240,1),sumleq([1,reg_00003_00001],hand_00004),sumgeq([1,reg_00003_00001],hand_00004)}),watched-and({diseq(-1,reg_00003_00001),w-literal(aux88,1),w-literal(outbox_00004_00003,-1),w-literal(inbox_00004_00004,3),w-literal(action_00004,6),w-literal(aux120,1),w-literal(aux207,1),w-literal(aux239,1),w-literal(aux158,1),w-literal(aux240,1),sumleq([-1,reg_00003_00001],hand_00004),sumgeq([-1,reg_00003_00001],hand_00004)})})
+watched-or({watched-and({w-literal(aux241,1),ineq(0, inbox_00004_00003, 0),w-literal(aux117,1),w-literal(aux167,1),w-literal(aux200,1),w-literal(inbox_00005_00003,-1),w-literal(inbox_00005_00005,6),w-literal(action_00005,1),ineq(inbox_00004_00002, 0, -1),gaceq(hand_00005,inbox_00004_00003),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux109,1)}),watched-and({w-literal(aux241,1),w-literal(aux117,1),w-literal(aux167,1),w-literal(aux200,1),diseq(-1,reg_00004_00001),w-literal(inbox_00005_00005,6),w-literal(action_00005,6),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux163,1),w-literal(aux109,1),sumleq([-1,reg_00004_00001],hand_00005),sumgeq([-1,reg_00004_00001],hand_00005)}),watched-and({w-literal(aux241,1),ineq(0, inbox_00004_00004, 0),w-literal(aux117,1),w-literal(aux167,1),w-literal(aux200,1),w-literal(inbox_00005_00004,-1),w-literal(inbox_00005_00005,6),w-literal(action_00005,1),ineq(inbox_00004_00003, 0, -1),gaceq(hand_00005,inbox_00004_00004),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux163,1)}),watched-and({w-literal(aux241,1),w-literal(aux117,1),w-literal(aux167,1),w-literal(aux200,1),w-literal(hand_00005,6),w-literal(inbox_00005_00005,-1),w-literal(action_00005,1),ineq(inbox_00004_00004, 0, -1),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux163,1),w-literal(aux109,1)}),watched-and({w-literal(aux241,1),w-literal(aux117,1),w-literal(aux167,1),w-literal(aux200,1),w-literal(inbox_00005_00005,6),w-literal(action_00005,4),gaceq(reg_00004_00001,hand_00005),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux163,1),w-literal(aux109,1)}),watched-and({gaceq(reg_00005_00001,hand_00004),w-literal(aux117,1),w-literal(aux167,1),w-literal(aux200,1),diseq(-1,hand_00004),w-literal(inbox_00005_00005,6),w-literal(action_00005,3),w-literal(aux89,1),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux163,1),w-literal(aux109,1)}),watched-and({w-literal(aux241,1),gaceq(outbox_00005_00004,hand_00004),w-literal(aux117,1),w-literal(aux167,1),w-literal(aux200,1),w-literal(inbox_00005_00005,6),w-literal(action_00005,2),ineq(0, outbox_00004_00003, 0),w-literal(aux89,1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux163,1),w-literal(aux109,1)}),watched-and({w-literal(aux241,1),w-literal(aux117,1),w-literal(aux167,1),w-literal(aux200,1),diseq(-1,reg_00004_00001),w-literal(inbox_00005_00005,6),w-literal(action_00005,5),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux163,1),w-literal(aux109,1),sumleq([1,reg_00004_00001],hand_00005),sumgeq([1,reg_00004_00001],hand_00005)}),watched-and({w-literal(aux241,1),gaceq(outbox_00005_00003,hand_00004),w-literal(aux117,1),w-literal(aux167,1),w-literal(inbox_00005_00005,6),w-literal(action_00005,2),ineq(0, outbox_00004_00002, 0),w-literal(aux89,1),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux163,1),w-literal(aux109,1),ineq(outbox_00004_00003, 0, -1)}),watched-and({w-literal(aux241,1),ineq(0, inbox_00004_00001, 0),w-literal(aux117,1),w-literal(aux167,1),w-literal(aux200,1),w-literal(inbox_00005_00001,-1),w-literal(inbox_00005_00005,6),w-literal(action_00005,1),gaceq(hand_00005,inbox_00004_00001),w-literal(outbox_00005_00004,-1),w-literal(aux206,1),w-literal(aux163,1),w-literal(aux109,1)}),watched-and({w-literal(aux241,1),gaceq(outbox_00005_00002,hand_00004),w-literal(aux117,1),w-literal(aux200,1),w-literal(inbox_00005_00005,6),w-literal(action_00005,2),ineq(0, outbox_00004_00001, 0),w-literal(aux89,1),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux163,1),w-literal(aux109,1),ineq(outbox_00004_00002, 0, -1)}),watched-and({w-literal(aux241,1),gaceq(outbox_00005_00001,hand_00004),w-literal(aux167,1),w-literal(aux200,1),w-literal(inbox_00005_00005,6),w-literal(action_00005,2),w-literal(aux89,1),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux163,1),w-literal(aux109,1),ineq(outbox_00004_00001, 0, -1)}),watched-and({w-literal(aux241,1),ineq(0, inbox_00004_00002, 0),w-literal(aux117,1),w-literal(aux167,1),w-literal(aux200,1),w-literal(inbox_00005_00002,-1),w-literal(inbox_00005_00005,6),w-literal(action_00005,1),ineq(inbox_00004_00001, 0, -1),gaceq(hand_00005,inbox_00004_00002),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux163,1),w-literal(aux109,1)}),watched-and({w-literal(aux241,1),w-literal(aux117,1),w-literal(aux167,1),w-literal(aux200,1),diseq(-1,reg_00004_00001),diseq(-1,hand_00004),w-literal(inbox_00005_00005,6),w-literal(action_00005,7),w-literal(outbox_00005_00004,-1),w-literal(aux156,1),w-literal(aux206,1),w-literal(aux163,1),w-literal(aux109,1),sumleq([reg_00004_00001,hand_00004],hand_00005),sumgeq([reg_00004_00001,hand_00004],hand_00005)})})
+watched-or({watched-and({w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),ineq(outbox_00005_00002, 0, -1),w-literal(action_00006,2),gaceq(outbox_00006_00002,hand_00005),w-literal(aux229,1),w-literal(aux147,1),ineq(0, outbox_00005_00001, 0),w-literal(aux135,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00006,4)}),watched-and({ineq(inbox_00005_00004, 0, -1),w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),ineq(0, inbox_00005_00005, 0),w-literal(action_00006,1),w-literal(aux229,1),gaceq(inbox_00005_00005,hand_00006),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00005,-1),w-literal(inbox_00006_00006,4)}),watched-and({w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),ineq(0, inbox_00005_00001, 0),w-literal(action_00006,1),w-literal(aux229,1),gaceq(inbox_00005_00001,hand_00006),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00001,-1),w-literal(inbox_00006_00006,4)}),watched-and({w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),diseq(-1,hand_00005),w-literal(action_00006,7),w-literal(aux229,1),diseq(reg_00005_00001,-1),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00006,4),sumleq([reg_00005_00001,hand_00005],hand_00006),sumgeq([reg_00005_00001,hand_00005],hand_00006)}),watched-and({ineq(inbox_00005_00002, 0, -1),w-literal(aux74,1),w-literal(aux160,1),w-literal(aux170,1),w-literal(aux81,1),ineq(0, inbox_00005_00003, 0),w-literal(action_00006,1),w-literal(aux229,1),gaceq(inbox_00005_00003,hand_00006),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00003,-1),w-literal(inbox_00006_00006,4)}),watched-and({w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),ineq(outbox_00005_00001, 0, -1),w-literal(action_00006,2),gaceq(outbox_00006_00001,hand_00005),w-literal(aux229,1),w-literal(aux147,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00006,4)}),watched-and({w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),ineq(outbox_00005_00003, 0, -1),w-literal(action_00006,2),gaceq(outbox_00006_00003,hand_00005),w-literal(aux229,1),w-literal(aux147,1),ineq(0, outbox_00005_00002, 0),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux238,1),w-literal(inbox_00006_00006,4)}),watched-and({w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),w-literal(action_00006,5),w-literal(aux229,1),diseq(reg_00005_00001,-1),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00006,4),sumleq([reg_00005_00001,1],hand_00006),sumgeq([reg_00005_00001,1],hand_00006)}),watched-and({ineq(inbox_00005_00003, 0, -1),w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux81,1),ineq(0, inbox_00005_00004, 0),w-literal(action_00006,1),w-literal(aux229,1),gaceq(inbox_00005_00004,hand_00006),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00004,-1),w-literal(inbox_00006_00006,4)}),watched-and({w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),diseq(-1,hand_00005),w-literal(action_00006,3),gaceq(reg_00006_00001,hand_00005),w-literal(aux147,1),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00006,4)}),watched-and({gaceq(reg_00005_00001,hand_00006),w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),w-literal(action_00006,4),w-literal(aux229,1),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00006,4)}),watched-and({ineq(inbox_00005_00005, 0, -1),w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),w-literal(hand_00006,4),w-literal(action_00006,1),w-literal(aux229,1),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00006,-1)}),watched-and({w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),w-literal(action_00006,6),w-literal(aux229,1),diseq(reg_00005_00001,-1),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00006,4),sumleq([reg_00005_00001,-1],hand_00006),sumgeq([reg_00005_00001,-1],hand_00006)}),watched-and({ineq(inbox_00005_00001, 0, -1),w-literal(aux74,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),ineq(0, inbox_00005_00002, 0),w-literal(action_00006,1),w-literal(aux229,1),gaceq(inbox_00005_00002,hand_00006),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(aux238,1),w-literal(inbox_00006_00002,-1),w-literal(inbox_00006_00006,4)}),watched-and({watched-or({watched-and({ineq(outbox_00005_00004, 0, -1),ineq(0, outbox_00005_00003, 0)}),ineq(0, outbox_00005_00003, 0)}),w-literal(aux74,1),w-literal(aux160,1),w-literal(aux83,1),w-literal(aux170,1),w-literal(aux81,1),w-literal(action_00006,2),gaceq(outbox_00006_00004,hand_00005),w-literal(aux229,1),w-literal(aux147,1),w-literal(aux135,1),w-literal(aux222,1),w-literal(aux140,1),w-literal(inbox_00006_00006,4)})})
+watched-or({watched-and({w-literal(inbox_00007_00007,4),w-literal(aux121,1),w-literal(aux217,1),w-literal(aux130,1),w-literal(aux165,1),w-literal(action_00007,2),w-literal(aux145,1),ineq(outbox_00006_00002, 0, -1),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1),gaceq(outbox_00007_00002,hand_00006),ineq(0, outbox_00006_00001, 0)}),watched-and({w-literal(inbox_00007_00002,-1),w-literal(inbox_00007_00007,4),w-literal(aux121,1),gaceq(inbox_00006_00002,hand_00007),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),ineq(inbox_00006_00001, 0, -1),w-literal(action_00007,1),ineq(0, inbox_00006_00002, 0),w-literal(aux84,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1)}),watched-and({w-literal(inbox_00007_00005,-1),w-literal(inbox_00007_00007,4),w-literal(aux121,1),gaceq(inbox_00006_00005,hand_00007),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),ineq(inbox_00006_00004, 0, -1),w-literal(action_00007,1),ineq(0, inbox_00006_00005, 0),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux185,1)}),watched-and({w-literal(inbox_00007_00007,4),w-literal(aux121,1),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux165,1),w-literal(action_00007,2),w-literal(aux145,1),ineq(outbox_00006_00003, 0, -1),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1),gaceq(outbox_00007_00003,hand_00006),ineq(0, outbox_00006_00002, 0)}),watched-and({w-literal(inbox_00007_00007,4),w-literal(aux121,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),w-literal(action_00007,2),w-literal(aux145,1),ineq(outbox_00006_00001, 0, -1),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1),gaceq(outbox_00007_00001,hand_00006)}),watched-and({w-literal(inbox_00007_00007,4),w-literal(aux121,1),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(action_00007,2),w-literal(aux145,1),watched-or({watched-and({ineq(outbox_00006_00004, 0, -1),ineq(0, outbox_00006_00003, 0)}),ineq(0, outbox_00006_00003, 0)}),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1),gaceq(outbox_00007_00004,hand_00006)}),watched-and({w-literal(inbox_00007_00007,4),diseq(-1,hand_00006),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),w-literal(action_00007,3),w-literal(aux145,1),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1),gaceq(reg_00007_00001,hand_00006)}),watched-and({w-literal(inbox_00007_00007,4),w-literal(aux121,1),diseq(reg_00006_00001,-1),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),w-literal(action_00007,5),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1),sumleq([reg_00006_00001,1],hand_00007),sumgeq([reg_00006_00001,1],hand_00007)}),watched-and({w-literal(inbox_00007_00003,-1),w-literal(inbox_00007_00007,4),w-literal(aux121,1),gaceq(inbox_00006_00003,hand_00007),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),ineq(inbox_00006_00002, 0, -1),w-literal(action_00007,1),ineq(0, inbox_00006_00003, 0),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1)}),watched-and({w-literal(inbox_00007_00006,-1),w-literal(inbox_00007_00007,4),w-literal(aux121,1),gaceq(inbox_00006_00006,hand_00007),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),ineq(inbox_00006_00005, 0, -1),w-literal(action_00007,1),ineq(0, inbox_00006_00006, 0),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1)}),watched-and({w-literal(inbox_00007_00001,-1),w-literal(inbox_00007_00007,4),w-literal(aux121,1),gaceq(inbox_00006_00001,hand_00007),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),w-literal(action_00007,1),ineq(0, inbox_00006_00001, 0),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1)}),watched-and({w-literal(inbox_00007_00004,-1),w-literal(inbox_00007_00007,4),w-literal(aux121,1),gaceq(inbox_00006_00004,hand_00007),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),ineq(inbox_00006_00003, 0, -1),w-literal(action_00007,1),ineq(0, inbox_00006_00004, 0),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux149,1),w-literal(aux185,1)}),watched-and({w-literal(inbox_00007_00007,4),w-literal(aux121,1),diseq(reg_00006_00001,-1),diseq(-1,hand_00006),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),w-literal(action_00007,7),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1),sumleq([reg_00006_00001,hand_00006],hand_00007),sumgeq([reg_00006_00001,hand_00006],hand_00007)}),watched-and({w-literal(inbox_00007_00007,4),w-literal(aux121,1),diseq(reg_00006_00001,-1),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),w-literal(action_00007,6),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1),sumleq([reg_00006_00001,-1],hand_00007),sumgeq([reg_00006_00001,-1],hand_00007)}),watched-and({w-literal(inbox_00007_00007,4),w-literal(aux121,1),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),w-literal(action_00007,4),gaceq(reg_00006_00001,hand_00007),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1)}),watched-and({w-literal(inbox_00007_00007,-1),w-literal(aux121,1),w-literal(hand_00007,4),w-literal(aux217,1),w-literal(aux91,1),w-literal(aux130,1),w-literal(aux165,1),ineq(inbox_00006_00006, 0, -1),w-literal(action_00007,1),w-literal(aux84,1),w-literal(aux123,1),w-literal(aux228,1),w-literal(aux96,1),w-literal(aux149,1),w-literal(aux185,1)})})
+watched-or({watched-and({w-literal(inbox_00008_00001,-1),w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),w-literal(action_00008,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),gaceq(inbox_00007_00001,hand_00008),w-literal(aux106,1),ineq(0, inbox_00007_00001, 0)}),watched-and({w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),w-literal(action_00008,5),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),diseq(reg_00007_00001,-1),w-literal(aux106,1),sumleq([reg_00007_00001,1],hand_00008),sumgeq([reg_00007_00001,1],hand_00008)}),watched-and({w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),w-literal(action_00008,6),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),diseq(reg_00007_00001,-1),w-literal(aux106,1),sumleq([reg_00007_00001,-1],hand_00008),sumgeq([reg_00007_00001,-1],hand_00008)}),watched-and({w-literal(inbox_00008_00008,-1),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),w-literal(hand_00008,70),w-literal(action_00008,1),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),w-literal(aux106,1),ineq(inbox_00007_00007, 0, -1)}),watched-and({w-literal(inbox_00008_00003,-1),w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),w-literal(action_00008,1),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),gaceq(inbox_00007_00003,hand_00008),w-literal(aux106,1),ineq(0, inbox_00007_00003, 0),ineq(inbox_00007_00002, 0, -1)}),watched-and({ineq(outbox_00007_00003, 0, -1),ineq(0, outbox_00007_00002, 0),w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux139,1),gaceq(outbox_00008_00003,hand_00007),w-literal(action_00008,2),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),w-literal(aux148,1),w-literal(aux106,1)}),watched-and({w-literal(inbox_00008_00005,-1),w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),w-literal(action_00008,1),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux122,1),w-literal(aux137,1),gaceq(inbox_00007_00005,hand_00008),w-literal(aux106,1),ineq(0, inbox_00007_00005, 0),ineq(inbox_00007_00004, 0, -1)}),watched-and({w-literal(inbox_00008_00006,-1),w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),w-literal(action_00008,1),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux137,1),gaceq(inbox_00007_00006,hand_00008),w-literal(aux106,1),ineq(0, inbox_00007_00006, 0),ineq(inbox_00007_00005, 0, -1)}),watched-and({ineq(outbox_00007_00002, 0, -1),ineq(0, outbox_00007_00001, 0),w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux124,1),w-literal(aux139,1),gaceq(outbox_00008_00002,hand_00007),w-literal(action_00008,2),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),w-literal(aux148,1),w-literal(aux106,1)}),watched-and({w-literal(inbox_00008_00002,-1),w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),w-literal(action_00008,1),w-literal(aux76,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),gaceq(inbox_00007_00002,hand_00008),w-literal(aux106,1),ineq(0, inbox_00007_00002, 0),ineq(inbox_00007_00001, 0, -1)}),watched-and({w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),gaceq(outbox_00008_00004,hand_00007),w-literal(action_00008,2),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),w-literal(aux148,1),w-literal(aux106,1),watched-or({ineq(0, outbox_00007_00003, 0),watched-and({ineq(outbox_00007_00004, 0, -1),ineq(0, outbox_00007_00003, 0)})})}),watched-and({w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),gaceq(reg_00008_00001,hand_00007),diseq(-1,hand_00007),w-literal(action_00008,3),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),w-literal(aux148,1)}),watched-and({w-literal(inbox_00008_00004,-1),w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),w-literal(action_00008,1),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),gaceq(inbox_00007_00004,hand_00008),w-literal(aux106,1),ineq(0, inbox_00007_00004, 0),ineq(inbox_00007_00003, 0, -1)}),watched-and({w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),diseq(-1,hand_00007),w-literal(action_00008,7),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),diseq(reg_00007_00001,-1),w-literal(aux106,1),sumleq([reg_00007_00001,hand_00007],hand_00008),sumgeq([reg_00007_00001,hand_00007],hand_00008)}),watched-and({w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),w-literal(action_00008,4),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),w-literal(aux106,1),gaceq(reg_00007_00001,hand_00008)}),watched-and({ineq(outbox_00007_00001, 0, -1),w-literal(inbox_00008_00008,70),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),gaceq(outbox_00008_00001,hand_00007),w-literal(action_00008,2),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),w-literal(aux137,1),w-literal(aux148,1),w-literal(aux106,1)}),watched-and({w-literal(inbox_00008_00007,-1),w-literal(inbox_00008_00008,70),w-literal(aux190,1),w-literal(aux110,1),w-literal(aux124,1),w-literal(aux139,1),w-literal(action_00008,1),w-literal(aux76,1),w-literal(aux86,1),w-literal(aux93,1),w-literal(aux100,1),w-literal(aux111,1),w-literal(aux122,1),gaceq(inbox_00007_00007,hand_00008),w-literal(aux106,1),ineq(0, inbox_00007_00007, 0),ineq(inbox_00007_00006, 0, -1)})})
+watched-or({watched-and({w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),diseq(-1,reg_00008_00001),w-literal(aux134,1),w-literal(action_00009,5),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),sumleq([1,reg_00008_00001],hand_00009),sumgeq([1,reg_00008_00001],hand_00009)}),watched-and({ineq(0, inbox_00008_00004, 0),w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),ineq(inbox_00008_00003, 0, -1),w-literal(aux134,1),w-literal(action_00009,1),w-literal(inbox_00009_00004,-1),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),gaceq(inbox_00008_00004,hand_00009)}),watched-and({w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),gaceq(reg_00008_00001,hand_00009),w-literal(aux134,1),w-literal(action_00009,4),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1)}),watched-and({ineq(0, inbox_00008_00006, 0),w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux225,1),w-literal(aux221,1),ineq(inbox_00008_00005, 0, -1),w-literal(aux134,1),w-literal(action_00009,1),w-literal(inbox_00009_00006,-1),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),gaceq(inbox_00008_00006,hand_00009)}),watched-and({w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),diseq(-1,hand_00008),w-literal(action_00009,3),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),w-literal(aux151,1),gaceq(hand_00008,reg_00009_00001)}),watched-and({w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),w-literal(aux134,1),w-literal(action_00009,2),w-literal(inbox_00009_00009,70),ineq(outbox_00008_00001, 0, -1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),w-literal(aux151,1),gaceq(outbox_00009_00001,hand_00008)}),watched-and({w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),ineq(inbox_00008_00008, 0, -1),w-literal(aux134,1),w-literal(hand_00009,70),w-literal(action_00009,1),w-literal(inbox_00009_00009,-1),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1)}),watched-and({w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),diseq(-1,reg_00008_00001),w-literal(aux134,1),w-literal(action_00009,6),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),sumleq([-1,reg_00008_00001],hand_00009),sumgeq([-1,reg_00008_00001],hand_00009)}),watched-and({ineq(0, inbox_00008_00002, 0),w-literal(aux205,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),ineq(inbox_00008_00001, 0, -1),w-literal(aux134,1),w-literal(action_00009,1),w-literal(inbox_00009_00002,-1),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),gaceq(inbox_00008_00002,hand_00009)}),watched-and({ineq(0, inbox_00008_00005, 0),w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),ineq(inbox_00008_00004, 0, -1),w-literal(aux134,1),w-literal(action_00009,1),w-literal(inbox_00009_00005,-1),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),gaceq(inbox_00008_00005,hand_00009)}),watched-and({w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),w-literal(aux134,1),ineq(0, outbox_00008_00002, 0),w-literal(action_00009,2),w-literal(inbox_00009_00009,70),ineq(outbox_00008_00003, 0, -1),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux154,1),w-literal(aux151,1),gaceq(outbox_00009_00003,hand_00008)}),watched-and({w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),watched-or({watched-and({ineq(0, outbox_00008_00003, 0),ineq(outbox_00008_00004, 0, -1)}),ineq(0, outbox_00008_00003, 0)}),w-literal(aux134,1),w-literal(action_00009,2),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux151,1),gaceq(outbox_00009_00004,hand_00008)}),watched-and({w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),diseq(-1,reg_00008_00001),w-literal(aux134,1),diseq(-1,hand_00008),w-literal(action_00009,7),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),sumleq([reg_00008_00001,hand_00008],hand_00009),sumgeq([reg_00008_00001,hand_00008],hand_00009)}),watched-and({ineq(0, inbox_00008_00008, 0),w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),ineq(inbox_00008_00007, 0, -1),w-literal(aux134,1),w-literal(action_00009,1),w-literal(inbox_00009_00008,-1),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),gaceq(inbox_00008_00008,hand_00009)}),watched-and({w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),w-literal(aux134,1),ineq(0, outbox_00008_00001, 0),w-literal(action_00009,2),w-literal(inbox_00009_00009,70),ineq(outbox_00008_00002, 0, -1),w-literal(aux138,1),w-literal(aux152,1),w-literal(aux154,1),w-literal(aux151,1),gaceq(outbox_00009_00002,hand_00008)}),watched-and({ineq(0, inbox_00008_00007, 0),w-literal(aux205,1),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux221,1),ineq(inbox_00008_00006, 0, -1),w-literal(aux134,1),w-literal(action_00009,1),w-literal(inbox_00009_00007,-1),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),gaceq(inbox_00008_00007,hand_00009)}),watched-and({ineq(0, inbox_00008_00003, 0),w-literal(aux205,1),w-literal(aux204,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),ineq(inbox_00008_00002, 0, -1),w-literal(aux134,1),w-literal(action_00009,1),w-literal(inbox_00009_00003,-1),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),gaceq(inbox_00008_00003,hand_00009)}),watched-and({ineq(0, inbox_00008_00001, 0),w-literal(aux204,1),w-literal(aux216,1),w-literal(aux215,1),w-literal(aux213,1),w-literal(aux208,1),w-literal(aux225,1),w-literal(aux221,1),w-literal(aux134,1),w-literal(action_00009,1),w-literal(inbox_00009_00001,-1),w-literal(inbox_00009_00009,70),w-literal(aux138,1),w-literal(aux142,1),w-literal(aux152,1),w-literal(aux154,1),gaceq(inbox_00008_00001,hand_00009)})})
+watched-or({watched-and({w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,4),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),w-literal(aux103,1),gaceq(hand_00010,reg_00009_00001),w-literal(inbox_00010_00010,3)}),watched-and({diseq(-1,hand_00009),diseq(-1,reg_00009_00001),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,7),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),w-literal(aux103,1),w-literal(inbox_00010_00010,3),sumleq([hand_00009,reg_00009_00001],hand_00010),sumgeq([hand_00009,reg_00009_00001],hand_00010)}),watched-and({ineq(0, inbox_00009_00008, 0),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux209,1),w-literal(action_00010,1),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),ineq(inbox_00009_00007, 0, -1),w-literal(aux103,1),gaceq(hand_00010,inbox_00009_00008),w-literal(inbox_00010_00008,-1),w-literal(inbox_00010_00010,3)}),watched-and({ineq(0, inbox_00009_00004, 0),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,1),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),ineq(inbox_00009_00003, 0, -1),w-literal(aux103,1),gaceq(hand_00010,inbox_00009_00004),w-literal(inbox_00010_00004,-1),w-literal(inbox_00010_00010,3)}),watched-and({diseq(-1,reg_00009_00001),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,6),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),w-literal(aux103,1),w-literal(inbox_00010_00010,3),sumleq([-1,reg_00009_00001],hand_00010),sumgeq([-1,reg_00009_00001],hand_00010)}),watched-and({watched-or({ineq(0, outbox_00009_00003, 0),watched-and({ineq(0, outbox_00009_00003, 0),ineq(outbox_00009_00004, 0, -1)})}),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,2),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),gaceq(outbox_00010_00004,hand_00009),w-literal(aux103,1),w-literal(aux136,1),w-literal(inbox_00010_00010,3)}),watched-and({ineq(0, inbox_00009_00001, 0),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,1),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),w-literal(aux103,1),gaceq(hand_00010,inbox_00009_00001),w-literal(inbox_00010_00001,-1),w-literal(inbox_00010_00010,3)}),watched-and({ineq(0, inbox_00009_00007, 0),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,1),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),ineq(inbox_00009_00006, 0, -1),w-literal(aux103,1),gaceq(hand_00010,inbox_00009_00007),w-literal(inbox_00010_00007,-1),w-literal(inbox_00010_00010,3)}),watched-and({ineq(0, inbox_00009_00006, 0),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,1),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),ineq(inbox_00009_00005, 0, -1),w-literal(aux103,1),gaceq(hand_00010,inbox_00009_00006),w-literal(inbox_00010_00006,-1),w-literal(inbox_00010_00010,3)}),watched-and({ineq(0, inbox_00009_00009, 0),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(action_00010,1),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),ineq(inbox_00009_00008, 0, -1),w-literal(aux103,1),gaceq(hand_00010,inbox_00009_00009),w-literal(inbox_00010_00009,-1),w-literal(inbox_00010_00010,3)}),watched-and({ineq(0, inbox_00009_00003, 0),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,1),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),ineq(inbox_00009_00002, 0, -1),w-literal(aux103,1),gaceq(hand_00010,inbox_00009_00003),w-literal(inbox_00010_00003,-1),w-literal(inbox_00010_00010,3)}),watched-and({w-literal(hand_00010,3),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,1),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),ineq(inbox_00009_00009, 0, -1),w-literal(aux103,1),w-literal(inbox_00010_00010,-1)}),watched-and({diseq(-1,reg_00009_00001),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,5),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),w-literal(aux103,1),w-literal(inbox_00010_00010,3),sumleq([1,reg_00009_00001],hand_00010),sumgeq([1,reg_00009_00001],hand_00010)}),watched-and({w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,2),ineq(0, outbox_00009_00002, 0),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux150,1),gaceq(outbox_00010_00003,hand_00009),w-literal(aux103,1),w-literal(aux136,1),ineq(outbox_00009_00003, 0, -1),w-literal(inbox_00010_00010,3)}),watched-and({ineq(0, inbox_00009_00005, 0),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,1),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),ineq(inbox_00009_00004, 0, -1),w-literal(aux103,1),gaceq(hand_00010,inbox_00009_00005),w-literal(inbox_00010_00005,-1),w-literal(inbox_00010_00010,3)}),watched-and({w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,2),ineq(0, outbox_00009_00001, 0),w-literal(aux188,1),w-literal(aux232,1),w-literal(aux150,1),gaceq(outbox_00010_00002,hand_00009),w-literal(aux103,1),w-literal(aux136,1),ineq(outbox_00009_00002, 0, -1),w-literal(inbox_00010_00010,3)}),watched-and({diseq(-1,hand_00009),w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,3),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),gaceq(reg_00010_00001,hand_00009),w-literal(aux136,1),w-literal(inbox_00010_00010,3)}),watched-and({ineq(0, inbox_00009_00002, 0),w-literal(aux180,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,1),w-literal(aux188,1),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),ineq(inbox_00009_00001, 0, -1),w-literal(aux103,1),gaceq(hand_00010,inbox_00009_00002),w-literal(inbox_00010_00002,-1),w-literal(inbox_00010_00010,3)}),watched-and({w-literal(aux180,1),w-literal(aux233,1),w-literal(aux116,1),w-literal(aux183,1),w-literal(aux104,1),w-literal(aux172,1),w-literal(aux226,1),w-literal(aux159,1),w-literal(aux209,1),w-literal(action_00010,2),w-literal(aux113,1),w-literal(aux232,1),w-literal(aux150,1),gaceq(outbox_00010_00001,hand_00009),w-literal(aux103,1),w-literal(aux136,1),ineq(outbox_00009_00001, 0, -1),w-literal(inbox_00010_00010,3)})})
+watched-or({watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00008,-1),w-literal(inbox_00011_00011,12),gaceq(inbox_00010_00008,hand_00011),w-literal(aux177,1),w-literal(action_00011,1),ineq(inbox_00010_00007, 0, -1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),ineq(0, inbox_00010_00008, 0)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00011,12),diseq(reg_00010_00001,-1),diseq(-1,hand_00010),w-literal(aux177,1),w-literal(action_00011,7),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),sumleq([reg_00010_00001,hand_00010],hand_00011),sumgeq([reg_00010_00001,hand_00010],hand_00011)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00011,12),w-literal(aux177,1),w-literal(action_00011,2),w-literal(aux115,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),gaceq(hand_00010,outbox_00011_00001),ineq(outbox_00010_00001, 0, -1)}),watched-and({ineq(0, outbox_00010_00002, 0),w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00011,12),w-literal(aux177,1),w-literal(action_00011,2),w-literal(aux115,1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux85,1),gaceq(hand_00010,outbox_00011_00003),ineq(outbox_00010_00003, 0, -1)}),watched-and({ineq(0, outbox_00010_00001, 0),w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00011,12),w-literal(aux177,1),w-literal(action_00011,2),w-literal(aux115,1),w-literal(aux155,1),w-literal(aux227,1),w-literal(aux85,1),gaceq(hand_00010,outbox_00011_00002),ineq(outbox_00010_00002, 0, -1)}),watched-and({gaceq(reg_00011_00001,hand_00010),w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00011,12),diseq(-1,hand_00010),w-literal(action_00011,3),w-literal(aux115,1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1)}),watched-and({w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00001,-1),w-literal(inbox_00011_00011,12),gaceq(inbox_00010_00001,hand_00011),w-literal(aux177,1),w-literal(action_00011,1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),ineq(0, inbox_00010_00001, 0)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00005,-1),w-literal(inbox_00011_00011,12),gaceq(inbox_00010_00005,hand_00011),w-literal(aux177,1),w-literal(action_00011,1),ineq(inbox_00010_00004, 0, -1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),ineq(0, inbox_00010_00005, 0)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00007,-1),w-literal(inbox_00011_00011,12),gaceq(inbox_00010_00007,hand_00011),w-literal(aux177,1),w-literal(action_00011,1),ineq(inbox_00010_00006, 0, -1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),ineq(0, inbox_00010_00007, 0)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00011,12),diseq(reg_00010_00001,-1),w-literal(aux177,1),w-literal(action_00011,5),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),sumleq([reg_00010_00001,1],hand_00011),sumgeq([reg_00010_00001,1],hand_00011)}),watched-and({w-literal(aux168,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00002,-1),w-literal(inbox_00011_00011,12),gaceq(inbox_00010_00002,hand_00011),w-literal(aux177,1),w-literal(action_00011,1),ineq(inbox_00010_00001, 0, -1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),ineq(0, inbox_00010_00002, 0)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00003,-1),w-literal(inbox_00011_00011,12),gaceq(inbox_00010_00003,hand_00011),w-literal(aux177,1),w-literal(action_00011,1),ineq(inbox_00010_00002, 0, -1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),ineq(0, inbox_00010_00003, 0)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),watched-or({ineq(0, outbox_00010_00003, 0),watched-and({ineq(0, outbox_00010_00003, 0),ineq(outbox_00010_00004, 0, -1)})}),w-literal(inbox_00011_00011,12),w-literal(aux177,1),w-literal(action_00011,2),w-literal(aux115,1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),gaceq(hand_00010,outbox_00011_00004)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00011,-1),w-literal(hand_00011,12),w-literal(aux177,1),w-literal(action_00011,1),ineq(inbox_00010_00010, 0, -1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00011,12),w-literal(aux177,1),w-literal(action_00011,4),gaceq(reg_00010_00001,hand_00011),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00011,12),diseq(reg_00010_00001,-1),w-literal(aux177,1),w-literal(action_00011,6),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),sumleq([reg_00010_00001,-1],hand_00011),sumgeq([reg_00010_00001,-1],hand_00011)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(inbox_00011_00010,-1),w-literal(inbox_00011_00011,12),gaceq(inbox_00010_00010,hand_00011),w-literal(aux177,1),w-literal(action_00011,1),ineq(inbox_00010_00009, 0, -1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),ineq(0, inbox_00010_00010, 0)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00004,-1),w-literal(inbox_00011_00011,12),gaceq(inbox_00010_00004,hand_00011),w-literal(aux177,1),w-literal(action_00011,1),ineq(inbox_00010_00003, 0, -1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),ineq(0, inbox_00010_00004, 0)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux80,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux196,1),w-literal(inbox_00011_00009,-1),w-literal(inbox_00011_00011,12),gaceq(inbox_00010_00009,hand_00011),w-literal(aux177,1),w-literal(action_00011,1),ineq(inbox_00010_00008, 0, -1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),ineq(0, inbox_00010_00009, 0)}),watched-and({w-literal(aux168,1),w-literal(aux210,1),w-literal(aux144,1),w-literal(aux191,1),w-literal(aux243,1),w-literal(aux127,1),w-literal(aux219,1),w-literal(aux98,1),w-literal(aux196,1),w-literal(inbox_00011_00006,-1),w-literal(inbox_00011_00011,12),gaceq(inbox_00010_00006,hand_00011),w-literal(aux177,1),w-literal(action_00011,1),ineq(inbox_00010_00005, 0, -1),w-literal(aux155,1),w-literal(aux195,1),w-literal(aux227,1),w-literal(aux85,1),ineq(0, inbox_00010_00006, 0)})})
+watched-or({watched-and({w-literal(aux118,1),w-literal(inbox_00012_00001,-1),w-literal(inbox_00012_00012,12),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),gaceq(inbox_00011_00001,hand_00012),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),ineq(0, inbox_00011_00001, 0)}),watched-and({w-literal(aux118,1),w-literal(inbox_00012_00002,-1),w-literal(inbox_00012_00012,12),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),gaceq(inbox_00011_00002,hand_00012),w-literal(aux173,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),ineq(inbox_00011_00001, 0, -1),ineq(0, inbox_00011_00002, 0)}),watched-and({w-literal(aux118,1),w-literal(inbox_00012_00009,-1),w-literal(inbox_00012_00012,12),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),gaceq(inbox_00011_00009,hand_00012),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux95,1),w-literal(aux223,1),ineq(inbox_00011_00008, 0, -1),ineq(0, inbox_00011_00009, 0)}),watched-and({w-literal(aux118,1),w-literal(inbox_00012_00011,-1),w-literal(inbox_00012_00012,12),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),gaceq(inbox_00011_00011,hand_00012),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),ineq(inbox_00011_00010, 0, -1),ineq(0, inbox_00011_00011, 0)}),watched-and({w-literal(aux118,1),w-literal(inbox_00012_00003,-1),w-literal(inbox_00012_00012,12),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),gaceq(inbox_00011_00003,hand_00012),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),ineq(inbox_00011_00002, 0, -1),ineq(0, inbox_00011_00003, 0)}),watched-and({w-literal(aux118,1),w-literal(hand_00012,12),w-literal(inbox_00012_00012,-1),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),ineq(inbox_00011_00011, 0, -1)}),watched-and({w-literal(aux118,1),gaceq(reg_00011_00001,hand_00012),w-literal(inbox_00012_00012,12),w-literal(action_00012,4),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1)}),watched-and({w-literal(aux118,1),w-literal(inbox_00012_00008,-1),w-literal(inbox_00012_00012,12),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),gaceq(inbox_00011_00008,hand_00012),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),ineq(inbox_00011_00007, 0, -1),ineq(0, inbox_00011_00008, 0)}),watched-and({w-literal(aux118,1),w-literal(inbox_00012_00010,-1),w-literal(inbox_00012_00012,12),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),gaceq(inbox_00011_00010,hand_00012),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux223,1),ineq(inbox_00011_00009, 0, -1),ineq(0, inbox_00011_00010, 0)}),watched-and({w-literal(aux118,1),ineq(outbox_00011_00001, 0, -1),w-literal(inbox_00012_00012,12),w-literal(action_00012,2),gaceq(outbox_00012_00001,hand_00011),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),w-literal(aux129,1),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1)}),watched-and({w-literal(aux118,1),w-literal(inbox_00012_00004,-1),w-literal(inbox_00012_00012,12),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),gaceq(inbox_00011_00004,hand_00012),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),ineq(inbox_00011_00003, 0, -1),ineq(0, inbox_00011_00004, 0)}),watched-and({w-literal(aux118,1),diseq(-1,reg_00011_00001),w-literal(inbox_00012_00012,12),w-literal(action_00012,5),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),sumleq([1,reg_00011_00001],hand_00012),sumgeq([1,reg_00011_00001],hand_00012)}),watched-and({w-literal(aux118,1),w-literal(inbox_00012_00006,-1),w-literal(inbox_00012_00012,12),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),gaceq(inbox_00011_00006,hand_00012),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),ineq(inbox_00011_00005, 0, -1),ineq(0, inbox_00011_00006, 0)}),watched-and({w-literal(aux118,1),diseq(-1,reg_00011_00001),diseq(-1,hand_00011),w-literal(inbox_00012_00012,12),w-literal(action_00012,7),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),sumleq([reg_00011_00001,hand_00011],hand_00012),sumgeq([reg_00011_00001,hand_00011],hand_00012)}),watched-and({diseq(-1,hand_00011),w-literal(inbox_00012_00012,12),w-literal(action_00012,3),gaceq(reg_00012_00001,hand_00011),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),w-literal(aux129,1),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1)}),watched-and({w-literal(aux118,1),w-literal(inbox_00012_00012,12),w-literal(action_00012,2),gaceq(outbox_00012_00004,hand_00011),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),watched-or({ineq(0, outbox_00011_00003, 0),watched-and({ineq(outbox_00011_00004, 0, -1),ineq(0, outbox_00011_00003, 0)})}),w-literal(aux129,1),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1)}),watched-and({w-literal(aux118,1),w-literal(inbox_00012_00007,-1),w-literal(inbox_00012_00012,12),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),gaceq(inbox_00011_00007,hand_00012),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),ineq(inbox_00011_00006, 0, -1),ineq(0, inbox_00011_00007, 0)}),watched-and({w-literal(aux118,1),diseq(-1,reg_00011_00001),w-literal(inbox_00012_00012,12),w-literal(action_00012,6),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),sumleq([-1,reg_00011_00001],hand_00012),sumgeq([-1,reg_00011_00001],hand_00012)}),watched-and({w-literal(aux118,1),w-literal(inbox_00012_00005,-1),w-literal(inbox_00012_00012,12),w-literal(action_00012,1),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux189,1),w-literal(aux230,1),gaceq(inbox_00011_00005,hand_00012),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1),ineq(inbox_00011_00004, 0, -1),ineq(0, inbox_00011_00005, 0)}),watched-and({w-literal(aux118,1),ineq(outbox_00011_00003, 0, -1),ineq(0, outbox_00011_00002, 0),w-literal(inbox_00012_00012,12),w-literal(action_00012,2),gaceq(outbox_00012_00003,hand_00011),w-literal(aux99,1),w-literal(aux153,1),w-literal(aux230,1),w-literal(aux129,1),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1)}),watched-and({w-literal(aux118,1),ineq(outbox_00011_00002, 0, -1),ineq(0, outbox_00011_00001, 0),w-literal(inbox_00012_00012,12),w-literal(action_00012,2),gaceq(outbox_00012_00002,hand_00011),w-literal(aux99,1),w-literal(aux189,1),w-literal(aux230,1),w-literal(aux129,1),w-literal(aux173,1),w-literal(aux126,1),w-literal(aux87,1),w-literal(aux212,1),w-literal(aux176,1),w-literal(aux128,1),w-literal(aux90,1),w-literal(aux214,1),w-literal(aux178,1),w-literal(aux95,1),w-literal(aux223,1)})})
+watched-or({watched-and({w-literal(action_00013,4),gaceq(reg_00012_00001,hand_00013),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({diseq(-1,hand_00012),w-literal(action_00013,3),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),w-literal(aux131,1),gaceq(reg_00013_00001,hand_00012),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({ineq(0, inbox_00012_00001, 0),w-literal(inbox_00013_00001,-1),w-literal(action_00013,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),gaceq(hand_00013,inbox_00012_00001),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({w-literal(action_00013,2),ineq(0, outbox_00012_00002, 0),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),ineq(outbox_00012_00003, 0, -1),w-literal(aux131,1),w-literal(aux169,1),gaceq(outbox_00013_00003,hand_00012),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux187,1)}),watched-and({ineq(0, inbox_00012_00005, 0),w-literal(inbox_00013_00005,-1),ineq(inbox_00012_00004, 0, -1),w-literal(action_00013,1),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),gaceq(hand_00013,inbox_00012_00005),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({ineq(0, inbox_00012_00012, 0),w-literal(inbox_00013_00012,-1),ineq(inbox_00012_00011, 0, -1),w-literal(action_00013,1),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),gaceq(hand_00013,inbox_00012_00012),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({ineq(0, inbox_00012_00009, 0),w-literal(inbox_00013_00009,-1),ineq(inbox_00012_00008, 0, -1),w-literal(action_00013,1),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),gaceq(hand_00013,inbox_00012_00009),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({ineq(0, inbox_00012_00006, 0),w-literal(inbox_00013_00006,-1),ineq(inbox_00012_00005, 0, -1),w-literal(action_00013,1),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),gaceq(hand_00013,inbox_00012_00006),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({ineq(0, inbox_00012_00004, 0),w-literal(inbox_00013_00004,-1),ineq(inbox_00012_00003, 0, -1),w-literal(action_00013,1),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),gaceq(hand_00013,inbox_00012_00004),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({ineq(0, inbox_00012_00007, 0),w-literal(inbox_00013_00007,-1),ineq(inbox_00012_00006, 0, -1),w-literal(action_00013,1),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),gaceq(hand_00013,inbox_00012_00007),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({watched-or({watched-and({ineq(0, outbox_00012_00003, 0),ineq(outbox_00012_00004, 0, -1)}),ineq(0, outbox_00012_00003, 0)}),w-literal(action_00013,2),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),w-literal(aux131,1),w-literal(aux169,1),gaceq(outbox_00013_00004,hand_00012),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1)}),watched-and({w-literal(action_00013,2),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),ineq(outbox_00012_00001, 0, -1),w-literal(aux131,1),w-literal(aux169,1),gaceq(outbox_00013_00001,hand_00012),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({diseq(-1,reg_00012_00001),diseq(-1,hand_00012),w-literal(action_00013,7),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1),sumleq([reg_00012_00001,hand_00012],hand_00013),sumgeq([reg_00012_00001,hand_00012],hand_00013)}),watched-and({ineq(0, inbox_00012_00003, 0),w-literal(inbox_00013_00003,-1),ineq(inbox_00012_00002, 0, -1),w-literal(action_00013,1),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),gaceq(hand_00013,inbox_00012_00003),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({diseq(-1,reg_00012_00001),w-literal(action_00013,5),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1),sumleq([1,reg_00012_00001],hand_00013),sumgeq([1,reg_00012_00001],hand_00013)}),watched-and({diseq(-1,reg_00012_00001),w-literal(action_00013,6),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1),sumleq([-1,reg_00012_00001],hand_00013),sumgeq([-1,reg_00012_00001],hand_00013)}),watched-and({ineq(0, inbox_00012_00010, 0),w-literal(inbox_00013_00010,-1),ineq(inbox_00012_00009, 0, -1),w-literal(action_00013,1),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux171,1),w-literal(aux231,1),gaceq(hand_00013,inbox_00012_00010),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({ineq(0, inbox_00012_00011, 0),w-literal(inbox_00013_00011,-1),ineq(inbox_00012_00010, 0, -1),w-literal(action_00013,1),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux231,1),gaceq(hand_00013,inbox_00012_00011),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({ineq(0, inbox_00012_00002, 0),w-literal(inbox_00013_00002,-1),ineq(inbox_00012_00001, 0, -1),w-literal(action_00013,1),w-literal(aux202,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),gaceq(hand_00013,inbox_00012_00002),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({w-literal(action_00013,2),ineq(0, outbox_00012_00001, 0),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux181,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),ineq(outbox_00012_00002, 0, -1),w-literal(aux131,1),w-literal(aux169,1),gaceq(outbox_00013_00002,hand_00012),w-literal(aux146,1),w-literal(aux224,1),w-literal(aux187,1)}),watched-and({ineq(0, inbox_00012_00008, 0),w-literal(inbox_00013_00008,-1),ineq(inbox_00012_00007, 0, -1),w-literal(action_00013,1),w-literal(aux202,1),w-literal(aux75,1),w-literal(aux108,1),w-literal(aux162,1),w-literal(aux198,1),w-literal(aux73,1),w-literal(aux105,1),w-literal(aux218,1),w-literal(aux119,1),w-literal(aux171,1),w-literal(aux231,1),gaceq(hand_00013,inbox_00012_00008),w-literal(aux169,1),w-literal(aux146,1),w-literal(aux97,1),w-literal(aux224,1),w-literal(aux187,1)})})
+watched-or({watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00009, 0),w-literal(action_00014,1),gaceq(inbox_00013_00009,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00009,-1),ineq(inbox_00013_00008, 0, -1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({ineq(outbox_00013_00003, 0, -1),w-literal(aux82,1),gaceq(outbox_00014_00003,hand_00013),w-literal(action_00014,2),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux197,1),w-literal(aux132,1),ineq(0, outbox_00013_00002, 0),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00011, 0),w-literal(action_00014,1),gaceq(inbox_00013_00011,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00011,-1),ineq(inbox_00013_00010, 0, -1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),w-literal(action_00014,5),diseq(reg_00013_00001,-1),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1),sumleq([reg_00013_00001,1],hand_00014),sumgeq([reg_00013_00001,1],hand_00014)}),watched-and({w-literal(aux82,1),w-literal(action_00014,6),diseq(reg_00013_00001,-1),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1),sumleq([reg_00013_00001,-1],hand_00014),sumgeq([reg_00013_00001,-1],hand_00014)}),watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00004, 0),w-literal(action_00014,1),gaceq(inbox_00013_00004,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00004,-1),ineq(inbox_00013_00003, 0, -1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00003, 0),w-literal(action_00014,1),gaceq(inbox_00013_00003,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00003,-1),ineq(inbox_00013_00002, 0, -1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00001, 0),w-literal(action_00014,1),gaceq(inbox_00013_00001,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00001,-1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00002, 0),w-literal(action_00014,1),gaceq(inbox_00013_00002,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00002,-1),ineq(inbox_00013_00001, 0, -1),w-literal(aux201,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({ineq(outbox_00013_00001, 0, -1),w-literal(aux82,1),gaceq(outbox_00014_00001,hand_00013),w-literal(action_00014,2),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(aux132,1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({gaceq(reg_00014_00001,hand_00013),diseq(-1,hand_00013),w-literal(action_00014,3),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(aux132,1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),w-literal(action_00014,4),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),gaceq(reg_00013_00001,hand_00014),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00008, 0),w-literal(action_00014,1),gaceq(inbox_00013_00008,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00008,-1),ineq(inbox_00013_00007, 0, -1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00012, 0),w-literal(action_00014,1),gaceq(inbox_00013_00012,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00012,-1),ineq(inbox_00013_00011, 0, -1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1)}),watched-and({w-literal(aux82,1),diseq(-1,hand_00013),w-literal(action_00014,7),diseq(reg_00013_00001,-1),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1),sumleq([reg_00013_00001,hand_00013],hand_00014),sumgeq([reg_00013_00001,hand_00013],hand_00014)}),watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00006, 0),w-literal(action_00014,1),gaceq(inbox_00013_00006,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00006,-1),ineq(inbox_00013_00005, 0, -1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00005, 0),w-literal(action_00014,1),gaceq(inbox_00013_00005,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00005,-1),ineq(inbox_00013_00004, 0, -1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({ineq(outbox_00013_00002, 0, -1),w-literal(aux82,1),gaceq(outbox_00014_00002,hand_00013),w-literal(action_00014,2),w-literal(aux78,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(aux132,1),ineq(0, outbox_00013_00001, 0),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),gaceq(outbox_00014_00004,hand_00013),w-literal(action_00014,2),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),watched-or({watched-and({ineq(outbox_00013_00004, 0, -1),ineq(0, outbox_00013_00003, 0)}),ineq(0, outbox_00013_00003, 0)}),w-literal(aux132,1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00010, 0),w-literal(action_00014,1),gaceq(inbox_00013_00010,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00010,-1),ineq(inbox_00013_00009, 0, -1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux114,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux235,1),w-literal(aux192,1)}),watched-and({w-literal(aux82,1),ineq(0, inbox_00013_00007, 0),w-literal(action_00014,1),gaceq(inbox_00013_00007,hand_00014),w-literal(aux78,1),w-literal(aux107,1),w-literal(aux161,1),w-literal(aux197,1),w-literal(inbox_00014_00007,-1),ineq(inbox_00013_00006, 0, -1),w-literal(aux201,1),w-literal(aux164,1),w-literal(aux112,1),w-literal(aux77,1),w-literal(aux203,1),w-literal(aux166,1),w-literal(aux79,1),w-literal(aux194,1),w-literal(aux102,1),w-literal(aux235,1),w-literal(aux192,1)})})
+watched-or({watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),gaceq(reg_00014_00001,hand_00015),w-literal(action_00015,4),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),ineq(inbox_00014_00003, 0, -1),w-literal(action_00015,1),ineq(0, inbox_00014_00004, 0),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),gaceq(inbox_00014_00004,hand_00015),w-literal(inbox_00015_00004,-1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),ineq(inbox_00014_00005, 0, -1),w-literal(action_00015,1),ineq(0, inbox_00014_00006, 0),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),gaceq(inbox_00014_00006,hand_00015),w-literal(inbox_00015_00006,-1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),ineq(inbox_00014_00009, 0, -1),w-literal(action_00015,1),ineq(0, inbox_00014_00010, 0),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),gaceq(inbox_00014_00010,hand_00015),w-literal(inbox_00015_00010,-1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),diseq(-1,hand_00014),w-literal(action_00015,3),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),gaceq(reg_00015_00001,hand_00014),w-literal(aux133,1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),ineq(inbox_00014_00008, 0, -1),w-literal(action_00015,1),ineq(0, inbox_00014_00009, 0),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),gaceq(inbox_00014_00009,hand_00015),w-literal(inbox_00015_00009,-1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),diseq(-1,hand_00014),w-literal(action_00015,7),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),diseq(reg_00014_00001,-1),sumleq([reg_00014_00001,hand_00014],hand_00015),sumgeq([reg_00014_00001,hand_00014],hand_00015)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),ineq(inbox_00014_00010, 0, -1),w-literal(action_00015,1),ineq(0, inbox_00014_00011, 0),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux211,1),w-literal(aux242,1),gaceq(inbox_00014_00011,hand_00015),w-literal(inbox_00015_00011,-1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),w-literal(action_00015,6),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),diseq(reg_00014_00001,-1),sumleq([reg_00014_00001,-1],hand_00015),sumgeq([reg_00014_00001,-1],hand_00015)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),ineq(inbox_00014_00011, 0, -1),w-literal(action_00015,1),ineq(0, inbox_00014_00012, 0),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux242,1),gaceq(inbox_00014_00012,hand_00015),w-literal(inbox_00015_00012,-1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),ineq(inbox_00014_00004, 0, -1),w-literal(action_00015,1),ineq(0, inbox_00014_00005, 0),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),gaceq(inbox_00014_00005,hand_00015),w-literal(inbox_00015_00005,-1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(hand_00014,70),w-literal(action_00015,2),ineq(outbox_00014_00003, 0, -1),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux133,1),w-literal(aux242,1),ineq(0, outbox_00014_00002, 0)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),ineq(inbox_00014_00001, 0, -1),w-literal(action_00015,1),ineq(0, inbox_00014_00002, 0),w-literal(aux193,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),gaceq(inbox_00014_00002,hand_00015),w-literal(inbox_00015_00002,-1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),w-literal(action_00015,5),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),diseq(reg_00014_00001,-1),sumleq([reg_00014_00001,1],hand_00015),sumgeq([reg_00014_00001,1],hand_00015)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00003,70),watched-or({watched-and({ineq(outbox_00014_00004, 0, -1),ineq(0, outbox_00014_00003, 0)}),ineq(0, outbox_00014_00003, 0)}),w-literal(hand_00014,12),w-literal(action_00015,2),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux133,1),w-literal(aux242,1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),ineq(inbox_00014_00006, 0, -1),w-literal(action_00015,1),ineq(0, inbox_00014_00007, 0),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),gaceq(inbox_00014_00007,hand_00015),w-literal(inbox_00015_00007,-1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),ineq(inbox_00014_00007, 0, -1),w-literal(action_00015,1),ineq(0, inbox_00014_00008, 0),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),gaceq(inbox_00014_00008,hand_00015),w-literal(inbox_00015_00008,-1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),w-literal(action_00015,1),ineq(0, inbox_00014_00001, 0),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),gaceq(inbox_00014_00001,hand_00015),w-literal(inbox_00015_00001,-1)}),watched-and({w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),w-literal(hand_00014,4),w-literal(action_00015,2),ineq(outbox_00014_00002, 0, -1),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux133,1),w-literal(aux242,1),ineq(0, outbox_00014_00001, 0)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00001,8),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),ineq(inbox_00014_00002, 0, -1),w-literal(action_00015,1),ineq(0, inbox_00014_00003, 0),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux242,1),gaceq(inbox_00014_00003,hand_00015),w-literal(inbox_00015_00003,-1)}),watched-and({w-literal(outbox_00014_00002,4),w-literal(outbox_00014_00004,12),w-literal(outbox_00014_00003,70),w-literal(hand_00014,8),w-literal(action_00015,2),ineq(outbox_00014_00001, 0, -1),w-literal(aux193,1),w-literal(aux236,1),w-literal(aux94,1),w-literal(aux143,1),w-literal(aux186,1),w-literal(aux220,1),w-literal(aux92,1),w-literal(aux141,1),w-literal(aux184,1),w-literal(aux125,1),w-literal(aux174,1),w-literal(aux211,1),w-literal(aux133,1),w-literal(aux242,1)})})
+**EOF**

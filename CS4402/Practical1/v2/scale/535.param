@@ -1,0 +1,5 @@
+language ESSENCE' 1.0
+letting input=[4,1,4,1,7]
+letting output=[7,28,39,52,65,14,70,2,9,26,31,7,64,64,69,34,10,46,9,26,20,35,31,29,51,49,53,33,57,58,46,61,51,26,14]
+letting MAX_OPS=711
+letting num_registers=0

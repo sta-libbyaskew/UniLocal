@@ -1,0 +1,2 @@
+#"CommandLineArguments" "Filename" "InitialPropagate" "MinionVersion" "Nodes" "ParsingTime" "Preprocess" "PreprocessTime" "RandomSeed" "Satisfiable" "SetupTime" "SolutionsFound" "SolveTime" "TimeOut" "TotalTime" 
+sat-instances/10.param.minion,-printsolsonly,-preprocess,SACBounds_limit,-tableout,.MINIONSTATS_1603720911383_16070,-solsout,.MINIONSOLS_1603720911383_16070,-noprintsols sat-instances/10.param.minion 0.004561 -1 32752004 0.013212 SACBounds_limit 0.076682 2143462476 0 0.006871 0 596.764 0 596.865 

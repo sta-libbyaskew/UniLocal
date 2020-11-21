@@ -1,0 +1,114 @@
+language ESSENCE' 1.0
+
+given steps: int(1..)
+
+$NB these could be parameters too.
+
+letting SIZE_A be 8
+letting SIZE_B be 5
+letting SIZE_C be 3
+
+
+$ Includes initial state
+letting STEPS be domain int(0..steps)
+$ Excludes initial state
+letting STEPS1 be domain int(1..steps)
+
+$$ End of Constants $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+$$ Decision Variables $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+$ The state of the three buckets - contents at each time step
+find bucketA : matrix indexed by [ STEPS ] of int(0..SIZE_A)
+find bucketB : matrix indexed by [ STEPS ] of int(0..SIZE_B)
+find bucketC : matrix indexed by [ STEPS ] of int(0..SIZE_C)
+
+$$ End of Decision Variables $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+$$ Constraints $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+such that
+
+$ NB Initial and goal states could be parameterised.
+$ initial state
+bucketA[0] = SIZE_A,       $ bucket A is full
+bucketB[0] = 0,            $ other two buckets are empty
+bucketC[0] = 0,
+
+$ goal state
+bucketA[steps] = 4,
+bucketB[steps] = 4,
+bucketC[steps] = 0,
+
+$ legal moves:
+forAll step : STEPS1 .
+$ pouring from bucketA->bucketB
+  ( ( (bucketA[step-1] > 0) /\ (bucketB[step-1] < SIZE_B)) /\ $"IF checker" connects to previous state.
+
+        ( (bucketB[step] = min(SIZE_B,bucketA[step-1]+bucketB[step-1])) /\
+          (bucketA[step] = bucketA[step-1]-bucketB[step]+bucketB[step-1]) /\
+          (bucketC[step] = bucketC[step-1])
+        )
+  )
+
+\/
+$ pouring from bucketA->bucketC
+  ( ( (bucketA[step-1] > 0) /\ (bucketC[step-1] < SIZE_C)) /\
+
+        ( (bucketC[step] = min(SIZE_C,bucketA[step-1]+bucketC[step-1])) /\
+          (bucketA[step] = bucketA[step-1]-bucketC[step]+bucketC[step-1]) /\
+          (bucketB[step] = bucketB[step-1])
+        )
+  )
+\/
+$ pouring from bucketB->bucketA
+ (  ((bucketB[step-1] > 0) /\ (bucketA[step-1] < SIZE_A) ) /\
+
+        ( (bucketA[step] = min(SIZE_A,bucketA[step-1] + bucketB[step-1]) ) /\
+          (bucketB[step] = bucketB[step-1] - bucketA[step]+bucketA[step-1]) /\
+          (bucketC[step] = bucketC[step-1])
+        )
+ )
+\/
+$ pouring from bucketB->bucketC
+  (  ((bucketB[step-1] > 0) /\ (bucketC[step-1] < SIZE_C))  /\
+
+        ( (bucketC[step] = min(SIZE_C,bucketB[step-1]+bucketC[step-1]) ) /\
+          (bucketB[step] = bucketB[step-1] - bucketC[step]+bucketC[step-1]) /\
+          (bucketA[step] = bucketA[step-1])
+        )
+  )
+\/
+$ pouring from bucketC->bucketA
+   (  ( (bucketC[step-1] > 0) /\ (bucketA[step-1] < SIZE_A))  /\
+
+        ( (bucketA[step] = min(SIZE_A,bucketA[step-1] + bucketC[step-1]) ) /\
+          (bucketC[step] = bucketC[step-1] - bucketA[step]+bucketA[step-1]) /\
+          (bucketB[step] = bucketB[step-1])
+        )
+   )
+\/
+$ pouring from bucketC->bucketB
+   ( ( (bucketC[step-1] > 0) /\ (bucketB[step-1] < SIZE_B))  /\
+
+        ( (bucketB[step] = min(SIZE_B,bucketB[step-1] + bucketC[step-1]) ) /\
+          (bucketC[step] = bucketC[step-1] - bucketB[step] +bucketB[step-1]) /\
+          (bucketA[step] = bucketA[step-1])
+        )
+   ),
+
+$ Implied Constraint: we don't throw any water away at any step
+$forAll step : STEPS .
+ $  bucketC[step] + bucketB[step] + bucketA[step] = SIZE_A,
+
+true
+
+
+$sample terminal output when possible moves is 8
+$ Minion SolverNodes: 55300
+$ Minion SolverTotalTime: 0.580406
+$ Minion SolverTimeOut: 0
+$ Savile Row TotalTime: 1.573
+$letting bucketA be [8, 5, 5, 2, 2, 7, 7, 4, 4;int(0..8)]
+$letting bucketB be [0, 0, 3, 3, 5, 0, 1, 1, 4;int(0..8)]
+$letting bucketC be [0, 3, 0, 3, 1, 1, 0, 3, 0;int(0..8)]

@@ -1,0 +1,13 @@
+language ESSENCE' 1.0
+$ Minion SolverNodes: 63
+$ Minion SolverTotalTime: 0.001604
+$ Minion SolverTimeOut: 0
+$ Savile Row TotalTime: 0.405
+letting x1 be 1
+letting x2 be 5
+letting x3 be 3
+letting x4 be 8
+letting x5 be 2
+letting x6 be 7
+letting x7 be 6
+letting x8 be 4
