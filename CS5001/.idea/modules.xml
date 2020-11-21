@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Practical3/Example/W05_Networking/1_BasicClientServerExample/1_BasicClientServerExample.iml" filepath="$PROJECT_DIR$/Practical3/Example/W05_Networking/1_BasicClientServerExample/1_BasicClientServerExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practical3/Example/W05_Networking/3_SynchronizedCounterExample/3_SynchronizedCounterExample.iml" filepath="$PROJECT_DIR$/Practical3/Example/W05_Networking/3_SynchronizedCounterExample/3_SynchronizedCounterExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practical3/Example/W05_Networking/4_ClientServerExample/4_ClientServerExample.iml" filepath="$PROJECT_DIR$/Practical3/Example/W05_Networking/4_ClientServerExample/4_ClientServerExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CS5001.iml" filepath="$PROJECT_DIR$/.idea/CS5001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practical3/v1/CS5001-p3-networking/CS5001-p3-networking.iml" filepath="$PROJECT_DIR$/Practical3/v1/CS5001-p3-networking/CS5001-p3-networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practical3/v1/CS5001-p3-networking copy/CS5001-p3-networking copy.iml" filepath="$PROJECT_DIR$/Practical3/v1/CS5001-p3-networking copy/CS5001-p3-networking copy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practical3/Example/Example.iml" filepath="$PROJECT_DIR$/Practical3/Example/Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practical3/Example/W05_Networking/W05_Networking.iml" filepath="$PROJECT_DIR$/Practical3/Example/W05_Networking/W05_Networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practical3/v2/v2.iml" filepath="$PROJECT_DIR$/Practical3/v2/v2.iml" />
+    </modules>
+  </component>
+</project>

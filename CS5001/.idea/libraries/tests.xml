@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="tests">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/stacscheck/tests/tests/config-out-of-reach.zip!/" />
+      <root url="jar://$PROJECT_DIR$/stacscheck/tests/tests/config-in-tenth-parent.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

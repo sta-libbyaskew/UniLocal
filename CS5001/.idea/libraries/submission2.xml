@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="submission2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/stacscheck/tests/tests/zipped-loose-files/submission.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

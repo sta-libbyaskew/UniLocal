@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sike">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/stacscheck/tests/tests/many-tar-submissions/sike.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
